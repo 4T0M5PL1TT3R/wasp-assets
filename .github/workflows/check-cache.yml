@@ -1,0 +1,35 @@
+name: Check newest Oldschool cache id
+
+on:
+  schedule:
+    - cron: 0 12 * * 3 # Every Wednesday at 12:00 UTC
+    - cron: 0 */6 * * * # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  fetch-and-dispatch:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+    outputs:
+      cache_id: ${{ steps.fetch.outputs.cache_id }}
+    steps:
+      - name: Fetch latest cache id
+        id: fetch
+        run: |
+          set -e
+          data=$(curl -s https://archive.openrs2.org/caches.json)
+
+          id=$(echo "$data" | jq '[.[] | select(.game=="oldschool" and .environment=="live" and .language=="en" and (.sources | index("Jagex"))) | .id] | max')
+
+          if [ -z "$id" ] || [ "$id" = "null" ]; then
+              echo "No matching cache id found"
+              exit 1
+          fi
+          echo "cache_id=$id" >> "$GITHUB_OUTPUT"
+  call-workflow:
+    needs: fetch-and-dispatch
+    uses: ./.github/workflows/update-dumps.yml
+    with:
+      cache_version: ${{ needs.fetch-and-dispatch.outputs.cache_id }}

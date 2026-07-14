@@ -1,0 +1,874 @@
+name: Update Dumps
+
+on:
+  workflow_dispatch:
+    inputs:
+      cache_version:
+        description: "OpenRS2 cache version to process"
+        required: true
+        type: string
+  workflow_call:
+    inputs:
+      cache_version:
+        description: "OpenRS2 cache version to process"
+        required: true
+        type: string
+
+run-name: Update Dumps for OpenRS2 cache version ${{ inputs.cache_version }}
+
+jobs:
+  #Setup
+  build-runelite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest commit hash
+        id: get-hash
+        run: |
+          SHA=$(git ls-remote https://github.com/Torwent/runelite.git refs/heads/main | cut -f1)
+          echo "sha=$SHA" >> $GITHUB_OUTPUT
+
+      - name: Restore JARs Cache
+        id: jar-cache
+        uses: actions/cache@v5
+        with:
+          path: staging/
+          key: runelite-jars-${{ steps.get-hash.outputs.sha }}
+
+      - name: Checkout RuneLite repository
+        if: steps.jar-cache.outputs.cache-hit != 'true'
+        uses: actions/checkout@v5
+        with:
+          repository: "Torwent/runelite"
+          ref: "main"
+          path: ./runelite
+
+      - name: Set up JDK 21
+        if: steps.jar-cache.outputs.cache-hit != 'true'
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Build RuneLite (cache)
+        if: steps.jar-cache.outputs.cache-hit != 'true'
+        run: |
+          cd runelite
+          ./gradlew --build-cache :cache:assemble -x test -x javadoc -q
+
+      - name: Build RuneLite (client)
+        if: steps.jar-cache.outputs.cache-hit != 'true'
+        run: |
+          cd runelite
+          ./gradlew --build-cache :client:assemble -x test -x javadoc -q
+          tree -L 12
+
+      - name: Copy to staging
+        if: steps.jar-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p staging
+          find runelite -name "cache-*-SNAPSHOT-shaded.jar" -exec mv {} staging/ \;
+          find runelite -name "client-*-SNAPSHOT-shaded.jar" -exec mv {} staging/ \;
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: runelite-jars
+          path: staging/
+
+  fetch-openrs2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Restore/OpenRS2 cache
+        uses: actions/cache@v5
+        id: openrs2-cache
+        with:
+          path: cache/input/${{ inputs.cache_version }}
+          key: openrs2-cache-${{ inputs.cache_version }} }}
+          enableCrossOsArchive: true
+
+      - name: Download OpenRS2 (miss)
+        if: steps.openrs2-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p cache/input/${{ inputs.cache_version }}
+          curl -L -o disk.zip https://archive.openrs2.org/caches/runescape/${{ inputs.cache_version }}/disk.zip
+          unzip -qo disk.zip -d cache/input/${{ inputs.cache_version }}
+
+      - name: Upload OpenRS2 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+  fetch-simba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Simba 2 download URL
+        id: simba-url
+        run: |
+          URL_CONTENT=$(curl -sL https://raw.githubusercontent.com/Villavu/Simba-Build-Archive/refs/heads/main/latest.win64 | tr -d '\r\n')
+          BASE_URL=$(echo "$URL_CONTENT" | sed 's/Win64\.zip?raw=true$//')
+          echo "Base URL: $BASE_URL"
+          echo "baseUrl=$BASE_URL" >> $GITHUB_OUTPUT
+          mkdir -p ./Includes
+
+      - name: Check Simba cache
+        uses: actions/cache@v5
+        id: simba-cache
+        with:
+          path: ./Simba-Win64.exe
+          key: simba-cache-${{ steps.simba-url.outputs.baseUrl }}
+          enableCrossOsArchive: true
+
+      - name: Download Simba 2.0 (64-bit)
+        if: steps.simba-cache.outputs.cache-hit != 'true'
+        run: |
+          BASE_URL="${{ steps.simba-url.outputs.baseUrl }}"
+          DOWNLOAD_URL="${BASE_URL}Win64.zip?raw=true"
+
+          echo "Download URL (64-bit): $DOWNLOAD_URL"
+          curl -L -o download.zip "$DOWNLOAD_URL"
+          unzip -qo download.zip -d .
+
+      - name: Upload Simba
+        uses: actions/upload-artifact@v6
+        with:
+          name: simba
+          path: ./Simba-Win64.exe
+
+  #Dump
+  dump-itemfinder:
+    runs-on: windows-latest
+    needs: build-runelite
+    steps:
+      - name: Sparse Checkout tools/preferences
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/preferences/*.dat
+          sparse-checkout-cone-mode: false
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: runelite-jars
+
+      - name: Copy preferences.dat
+        run: |
+          $runeliteCacheDir = "$env:USERPROFILE\.runelite\jagexcache\oldschool\LIVE"
+          New-Item -ItemType Directory -Force -Path $runeliteCacheDir | Out-Null
+          Copy-Item -Recurse -Force "tools/preferences/*.dat" $runeliteCacheDir
+
+      - name: Run RuneLite
+        run: |
+          $timeoutSeconds = 150
+          $jar = Get-ChildItem runelite-jars -Filter "client-*-SNAPSHOT-shaded.jar" | Select-Object -First 1
+          if (-not $jar) { Write-Error "Shaded jar not found"; exit 1 }
+
+          # --- LOOP 1: CACHE WARMUP ---
+          Write-Host "Starting Loop 1 (Cache Warmup)..."
+          $process = Start-Process -FilePath "java" `
+              -ArgumentList "-Dfile.encoding=UTF8 -jar", $jar.FullName `
+              -NoNewWindow -PassThru `
+              -RedirectStandardOutput "output.log" `
+              -RedirectStandardError "error.log"
+
+          $sw = [System.Diagnostics.Stopwatch]::StartNew()
+          $thrashingStarted = $false
+          $lastActivityTime = 0
+          $lastCombinedSize = 0
+
+          while (-not $process.HasExited) {
+              if ($sw.Elapsed.TotalSeconds -gt $timeoutSeconds) {
+                  Stop-Process -Id $process.Id -Force
+                  Write-Error "Loop 1 timed out"
+                  exit 1
+              }
+
+              # Calculate combined size of both logs to see if anything NEW was written
+              $currentSize = 0
+              if (Test-Path "output.log") { $currentSize += (Get-Item "output.log").Length }
+              if (Test-Path "error.log") { $currentSize += (Get-Item "error.log").Length }
+
+              # Only scan if the files have actually grown
+              if ($currentSize -gt $lastCombinedSize) {
+                  $outLines = if (Test-Path "output.log") { Get-Content "output.log" -Tail 20 } else { @() }
+                  $errLines = if (Test-Path "error.log") { Get-Content "error.log" -Tail 20 } else { @() }
+
+                  if (($outLines -match "cache.*thrashing") -or ($errLines -match "cache.*thrashing")) {
+                      if (-not $thrashingStarted) {
+                          Write-Host ">>> Thrashing detected! Starting silence timer..."
+                          $thrashingStarted = $true
+                      }
+                      $lastActivityTime = $sw.Elapsed.TotalSeconds
+                  }
+                  $lastCombinedSize = $currentSize
+              }
+
+              # If we saw thrashing, wait for 20s of no NEW thrashing logs
+              if ($thrashingStarted) {
+                  $silence = $sw.Elapsed.TotalSeconds - $lastActivityTime
+                  if ($silence -gt 20) {
+                      Write-Host ">>> Cache stable (20s since last thrash log). Killing process."
+                      Stop-Process -Id $process.Id -Force
+                      break
+                  }
+              }
+              Start-Sleep -Seconds 2
+          }
+
+          Write-Host "Warm Up Summary:"
+          Get-Content "output.log" -ErrorAction SilentlyContinue
+          Remove-Item "output.log", "error.log" -ErrorAction SilentlyContinue
+
+          # --- LOOP 2: ITEMFINDER DUMP ---
+          Write-Host "Starting Loop 2 (ItemFinder Dump)..."
+          $process = Start-Process -FilePath "java" `
+            -ArgumentList "-Dfile.encoding=UTF8 -jar", $jar.FullName `
+            -NoNewWindow -PassThru `
+            -RedirectStandardOutput "output.log" `
+            -RedirectStandardError "error.log"
+
+          $sw = [System.Diagnostics.Stopwatch]::StartNew()
+          while (-not $process.HasExited) {
+            if ($sw.Elapsed.TotalSeconds -gt $timeoutSeconds) {
+              Stop-Process -Id $process.Id -Force
+              Write-Error "Loop 2 timed out"
+              exit 1
+            }
+
+            if (Test-Path "output.log") {
+              if ((Get-Content "output.log" -Tail 20) -match "ItemFinder completed") {
+                Write-Host ">>> Success: ItemFinder completed!"
+                Start-Sleep -Seconds 10
+                Stop-Process -Id $process.Id -Force
+                break
+              }
+            }
+            Start-Sleep -Seconds 2
+          }
+
+          Write-Host "Final Log Summary:"
+          Get-Content "output.log" -ErrorAction SilentlyContinue
+
+      - name: Upload ItemFinder
+        uses: actions/upload-artifact@v6
+        with:
+          name: itemfinder
+          path: itemfinder
+
+  dump-items:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaItemDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaItemDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+          cd cache/output/${{ inputs.cache_version }}/items
+          zip -r items.zip ./*.json
+      - name: Upload Items
+        uses: actions/upload-artifact@v6
+        with:
+          name: items
+          path: cache/output/${{ inputs.cache_version }}/items/items.zip
+
+  dump-gear:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaItemDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaGearDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Items
+        uses: actions/upload-artifact@v6
+        with:
+          name: gear
+          path: cache/output/${{ inputs.cache_version }}/gear.json
+
+  dump-collision:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaCollisionMapDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaCollisionMapDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Collision Maps
+        uses: actions/upload-artifact@v6
+        with:
+          name: collision
+          path: cache/output/${{ inputs.cache_version }}
+
+  dump-height:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaHeightMapDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaHeightMapDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Heightmaps
+        uses: actions/upload-artifact@v6
+        with:
+          name: height
+          path: cache/output/${{ inputs.cache_version }}/heightmap.zip
+
+  dump-map:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaMapImageDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaMapImageDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Map Images
+        uses: actions/upload-artifact@v6
+        with:
+          name: map
+          path: cache/output/${{ inputs.cache_version }}
+
+  dump-map-noicons:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaMapImageDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaMapImageDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output -noicons
+
+      - name: Upload Map Images
+        uses: actions/upload-artifact@v6
+        with:
+          name: map-noicons
+          path: cache/output/${{ inputs.cache_version }}
+
+  dump-npcs:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaNPCDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaNPCDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Zip NPCs folder
+        run: |
+          cd cache/output/${{ inputs.cache_version }}/NPCs
+          zip -r npcs-helper.zip .
+
+      - name: Upload NPCs
+        uses: actions/upload-artifact@v6
+        with:
+          name: npcs-helper
+          path: cache/output/${{ inputs.cache_version }}/NPCs/npcs-helper.zip
+
+  dump-object:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaObjectInfoDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaObjectInfoDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Object Info
+        uses: actions/upload-artifact@v6
+        with:
+          name: objects
+          path: cache/output/${{ inputs.cache_version }}
+
+  dump-object1400:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run Simba1400ObjectInfoDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.Simba1400ObjectInfoDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Upload Object Info
+        uses: actions/upload-artifact@v6
+        with:
+          name: objects1400
+          path: cache/output/${{ inputs.cache_version }}
+
+  dump-sprites:
+    runs-on: ubuntu-latest
+    needs: [build-runelite, fetch-openrs2]
+    steps:
+      - name: Setup Java 21
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 21
+
+      - name: Download RuneLite artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: runelite-jars
+          path: staging
+
+      - name: Restore OpenRS2 cache
+        uses: actions/download-artifact@v7
+        with:
+          name: openrs2-cache
+          path: cache/input/${{ inputs.cache_version }}
+
+      - name: Run SimbaSpriteDumper (java)
+        run: |
+          mkdir -p cache/output
+          java -cp staging/cache-*-SNAPSHOT-shaded.jar net.runelite.cache.SimbaSpriteDumper \
+            --cachedir cache/input --cachename ${{ inputs.cache_version }} --outputdir cache/output
+
+      - name: Zip sprites folder
+        run: |
+          cd cache/output/${{ inputs.cache_version }}/Sprites
+          zip -r sprites.zip .
+
+      - name: Upload Sprites
+        uses: actions/upload-artifact@v6
+        with:
+          name: sprites
+          path: cache/output/${{ inputs.cache_version }}/Sprites/sprites.zip
+
+  #Processing
+  process-items:
+    runs-on: windows-latest
+    needs: [fetch-simba, dump-itemfinder]
+    steps:
+      - name: Download Simba
+        uses: actions/download-artifact@v7
+        with:
+          name: simba
+          path: .
+
+      - name: Download itemfinder files
+        uses: actions/download-artifact@v7
+        with:
+          name: itemfinder
+          path: .
+
+      - name: Sparse Checkout tools/update_items.simba
+        uses: actions/checkout@v5
+        with:
+          path: ./wasp-assets
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/update_items.simba
+          sparse-checkout-cone-mode: false
+
+      - name: Generate new items files
+        shell: bash
+        run: |
+          #Simba does single thread unzipping and is slow
+          unzip -qo items-imgs.zip -d items-imgs
+          ./Simba-Win64.exe --extractopenssl --path=./ --reset=false --cleanup=false --run ./wasp-assets/tools/update_items.simba
+
+      - name: Move to staging
+        run: |
+          mkdir -p staging
+          mv Data/hash.txt staging/hash.txt
+          mv items.bin staging/items.bin
+          mv items.zip staging/items.zip
+
+      - name: Upload item files
+        uses: actions/upload-artifact@v6
+        with:
+          name: processed-items
+          path: staging/
+
+  process-npcs:
+    runs-on: windows-latest
+    needs: [fetch-simba, dump-npcs]
+    steps:
+      - name: Download Simba
+        uses: actions/download-artifact@v7
+        with:
+          name: simba
+          path: .
+
+      - name: Download NPC Helper files
+        uses: actions/download-artifact@v7
+        with:
+          name: npcs-helper
+          path: .
+
+      - name: Sparse Checkout tools/update_npcs.simba
+        uses: actions/checkout@v5
+        with:
+          path: ./wasp-assets
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/update-npcs.simba
+          sparse-checkout-cone-mode: false
+
+      - name: Generate new npc files
+        shell: bash
+        run: |
+          #Simba does single thread unzipping and is slow
+          unzip -qo npcs-helper.zip -d npcs_helper
+          ./Simba-Win64.exe --extractopenssl --path=./ --reset=false --cleanup=false --run ./wasp-assets/tools/update_npcs.simba
+
+      - name: Upload NPCs
+        uses: actions/upload-artifact@v6
+        with:
+          name: npcs
+          path: npcs.zip
+
+  process-maps:
+    runs-on: windows-latest
+    needs: [fetch-simba, dump-map, dump-collision, dump-height]
+    steps:
+      - name: Download Simba
+        uses: actions/download-artifact@v7
+        with:
+          name: simba
+          path: .
+
+      - name: Download map
+        uses: actions/download-artifact@v7
+        with:
+          name: map
+          path: .
+
+      - name: Download collision
+        uses: actions/download-artifact@v7
+        with:
+          name: collision
+          path: .
+
+      - name: Download height
+        uses: actions/download-artifact@v7
+        with:
+          name: height
+          path: .
+
+      - name: Sparse Checkout tools/update_map.simba
+        uses: actions/checkout@v5
+        with:
+          path: ./wasp-assets
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/update_map.simba
+          sparse-checkout-cone-mode: false
+
+      - name: Generate new map files
+        shell: bash
+        run: |
+          mkdir ./zips
+          #Simba does single thread unzipping and is slow
+          unzip -qo map.zip -d ./zips/map
+          unzip -qo collision.zip -d ./zips/collision
+          unzip -qo heightmap.zip -d ./zips/heightmap
+          ./Simba-Win64.exe --extractopenssl --path=./ --reset=false --cleanup=false --run ./wasp-assets/tools/update_map.simba
+
+      - name: Upload item files
+        uses: actions/upload-artifact@v6
+        with:
+          name: processed-map
+          path: mapdata.zip
+
+  #Commit
+  commit-results:
+    runs-on: ubuntu-latest
+    needs:
+      [
+        dump-items,
+        dump-gear,
+        dump-map-noicons,
+        dump-object,
+        dump-object1400,
+        dump-sprites,
+        dump-collision,
+        dump-height,
+        dump-map,
+        process-maps,
+        dump-npcs,
+        process-npcs,
+        dump-itemfinder,
+        process-items,
+      ]
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "Wasp Bot"
+          git config --global user.email "waspbot@waspscripts.com"
+
+      - name: Download all dump artifacts
+        uses: actions/download-artifact@v7
+        with:
+          path: artifacts
+
+      - name: Organize dump outputs and stage changes
+        run: |
+          sudo apt install -y zipcmp
+          declare -A files=(
+            ["artifacts/items/items.zip"]="jsons/item-definitions.zip"
+            ["artifacts/gear/gear.json"]="jsons/gear.json"
+            ["artifacts/sprites/sprites.zip"]="sprites/sprites.zip"
+
+            ["artifacts/itemfinder/items-imgs.zip"]="finders/items/items-imgs.zip"
+            ["artifacts/itemfinder/id.txt"]="finders/items/data/id.txt"
+            ["artifacts/itemfinder/item.txt"]="finders/items/data/item.txt"
+            ["artifacts/processed-items/hash.txt"]="finders/items/data/hash.txt"
+            ["artifacts/processed-items/items.bin"]="finders/items/items.bin"
+            ["artifacts/processed-items/items.zip"]="finders/items/items.zip"
+
+            ["artifacts/npcs-helper/npcs-helper.zip"]="map/zips/npcs_helper.zip"
+            ["artifacts/npcs/npcs.zip"]="map/npcs.zip"
+
+            ["artifacts/map/map.zip"]="map/zips/map.zip"
+            ["artifacts/map-noicons/map-noicons.zip"]="map/zips/map-noicons.zip"
+            ["artifacts/objects/objects.zip"]="map/objects.zip"
+            ["artifacts/objects1400/objects1400.zip"]="map/zips/objects1400.zip"
+            ["artifacts/collision/collision.zip"]="map/zips/collision.zip"
+            ["artifacts/height/heightmap.zip"]="map/zips/heightmap.zip"
+            ["artifacts/processed-map/mapdata.zip"]="map/mapdata.zip"
+          )
+
+          for src in "${!files[@]}"; do
+            dst="${files[$src]}"
+            mkdir -p "$(dirname "$dst")"
+
+            # Check if source file exists (artifact might be missing if job failed)
+            if [ ! -f "$src" ]; then
+              echo "Warning: $src not found (likely from a failed job)"
+              continue
+            fi
+
+            if [[ "$src" == *.zip ]]; then
+              if [ ! -f "$dst" ] || ! zipcmp -q "$src" "$dst"; then
+                mv "$src" "$dst"
+                git add "$dst"
+              fi
+            else
+              if [ ! -f "$dst" ] || ! cmp -s "$src" "$dst"; then
+                mv "$src" "$dst"
+                git add "$dst"
+              fi
+            fi
+          done
+          rm -rf artifacts/
+
+      - name: Commit, Create Branch, and Push
+        id: branch_push
+        run: |
+          if git diff --cached --exit-code; then
+            echo "No file changes detected. Skipping commit and PR creation."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            BRANCH_NAME="update-${{ inputs.cache_version }}"
+
+            git checkout -b $BRANCH_NAME
+            git commit -m "Update cache dumps to version ${{ inputs.cache_version }} (partial)"
+            git push origin $BRANCH_NAME --force
+
+            echo "Changes committed and pushed to $BRANCH_NAME."
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request if changes
+        if: steps.branch_push.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base main \
+            --head ${{ steps.branch_push.outputs.branch_name }} \
+            --title "Update cache dumps to version ${{ inputs.cache_version }}" \
+            --body "Automated cache dump update from OpenRS2 archive.
+
+            **Cache Version:** ${{ inputs.cache_version }}
+
+            Generated by workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --label automated,cache-update

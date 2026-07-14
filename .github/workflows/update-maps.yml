@@ -1,0 +1,119 @@
+name: Update Maps
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "map/zips/map.zip"
+      - "map/zips/heightmap.zip"
+      - "map/zips/collision.zip"
+  workflow_dispatch:
+
+jobs:
+  check-maps:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.file_check.outputs.changed }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check if map files changed
+        id: file_check
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run detected"
+            echo "changed=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          FILES="map/zips/map.zip map/zips/heightmap.zip map/zips/collision.zip"
+
+          if git diff-tree --no-commit-id --name-only -r HEAD | grep -Eq "^($(echo $FILES | sed 's/ /|/g'))$"; then
+            echo "Changes detected in map files."
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "No relevant map changes."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+  process-maps:
+    if: ${{ needs.check-maps.outputs.changed == 'true' }}
+    needs: check-maps
+    runs-on: windows-latest
+    steps:
+      - name: Fetch Simba 2 download URL
+        id: simba-url
+        run: |
+          $url = "https://raw.githubusercontent.com/Villavu/Simba-Build-Archive/refs/heads/main/latest.win64"
+          $response = Invoke-WebRequest -Uri $url -UseBasicParsing
+          $baseUrl = $response.Content.Trim() -replace 'Win64\.zip\?raw=true$', ''
+          Write-Output "Base URL: $baseUrl"
+          echo "baseUrl=$baseUrl" >> $env:GITHUB_OUTPUT
+          New-Item -Path ".\Includes" -ItemType Directory
+
+      - name: Check Simba cache
+        uses: actions/cache@v5
+        id: simba-cache
+        with:
+          path: ./Simba-Win64.exe
+          key: simba-cache-${{ steps.simba-url.outputs.baseUrl }}
+          enableCrossOsArchive: true
+
+      - name: Download Simba 2.0 (64-bit)
+        if: steps.simba-cache.outputs.cache-hit != 'true'
+        run: |
+          $baseUrl = "${{ steps.simba-url.outputs.baseUrl }}"
+          $downloadUrl = "$baseUrl" + "Win64.zip?raw=true"
+          Write-Output "Download URL (64-bit): $downloadUrl"
+          $outputFile = ".\download.zip"
+          Invoke-WebRequest -Uri $downloadUrl -OutFile $outputFile
+          Expand-Archive -Path $outputFile -DestinationPath . -Force
+          Remove-Item -Path $outputFile -Force
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          path: ./wasp-assets
+          fetch-depth: 2
+
+      - name: Unzip map files
+        shell: bash
+        run: |
+          unzip -o ./wasp-assets/map/zips/collision.zip -d ./wasp-assets/map/zips/collision
+          unzip -o ./wasp-assets/map/zips/heightmap.zip -d ./wasp-assets/map/zips/heightmap
+          unzip -o ./wasp-assets/map/zips/map.zip -d ./wasp-assets/map/zips/map
+          unzip -o ./wasp-assets/map/zips/npcs_helper.zip -d ./wasp-assets/map/zips/npcs_helper
+
+      - name: Generate new npc files
+        shell: bash
+        run: ./Simba-Win64.exe --extractopenssl --run ./wasp-assets/tools/update_npcs.simba
+
+      - name: Generate new bin files and mapdata.zip
+        shell: bash
+        run: ./Simba-Win64.exe --extractopenssl --run ./wasp-assets/tools/update_map.simba
+
+      - name: Create hash files
+        shell: bash
+        run: ./Simba-Win64.exe --extractopenssl --run ./wasp-assets/tools/hash-files.simba
+
+      - name: Commit hash files
+        shell: bash
+        run: |
+          cd ./wasp-assets
+          git config --global user.name "Wasp Bot"
+          git config --global user.email "waspbot@waspscripts.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "Automatic map files update"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+  call-workflow:
+    needs: process-maps
+    uses: ./.github/workflows/hash-files.yml
