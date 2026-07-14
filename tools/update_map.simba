@@ -1,0 +1,111 @@
+const
+  MAP_FILES: TStringArray = ['map', 'collision', 'heightmap'];
+
+var
+  Path: String := PathNormalize({$MACRO DIR} + '..' + PATH_SEP + 'map' + PATH_SEP);
+  UNZIP_FILES: Boolean = False;
+  DELETE_FILES: Boolean = True;
+  Queue, Binned: TStringArray = [];
+  Lock: TLock;
+
+procedure LoadArguments();
+begin
+  if GetProcessArg('path') then
+    Path := GetProcessArg('path');
+  if GetProcessArg('reset') then
+    UNZIP_FILES := GetProcessArg('reset').ToLower() = 'true';
+  if GetProcessArg('cleanup') then
+    DELETE_FILES := GetProcessArg('cleanup').ToLower() = 'true';
+end;
+
+procedure Compress(current: String);
+var
+  writer: TResourceWriter;
+begin
+  WriteLn('Start compressing: ', current + '.bin');
+  writer := new TResourceWriter();
+
+  //if current = 'heightmap' then
+  //  writer.AddFiles(PATH + 'zips' + PATH_SEP + current, '*.png', False)
+  //else
+    writer.AddImages(PATH + 'zips' + PATH_SEP + current, '*.png', False);
+
+  if not DirCreate(PATH + 'bins') then
+    raise 'Failed to create path: ' + PATH + 'bins';
+  FileDelete(PATH + 'bins' + PATH_SEP + current + '.bin');
+  writer.Save(PATH + 'bins' + PATH_SEP + current + '.bin');
+  WriteLn('Finished compressing: ', current + '.bin');
+end;
+
+procedure FinishedUnzipping(constref result: TASyncUnzipResult);
+var
+  idx: Integer;
+begin
+  WriteLn('Finished unzipping: ', result.ZipFile.After(PATH));
+  if not result.Success then
+  begin
+    if result.Exception <> '' then
+      raise result.Exception;
+    TerminateScript('Failed to unzip npcs_helper.zip');
+  end;
+
+  Lock.Enter();
+  idx := Queue.IndexOf(result.ZipFile);
+  if idx = -1 then
+    raise 'Can''t find ' + result.ZipFile + ' in the unzip queue.';
+  Delete(Queue, idx, 1);
+  Lock.Leave();
+end;
+
+var
+  current: String;
+  timer: TCountDown;
+begin
+  ClearSimbaOutput();
+
+  LoadArguments();
+
+  Lock := TLock.Create();
+
+  if UNZIP_FILES then
+    for current in MAP_FILES do
+    begin
+      WriteLn('Start unzipping: ', current, '.zip');
+      Async.FileUnZip(PATH + 'zips' + PATH_SEP + current + '.zip', PATH + 'zips' + PATH_SEP + current, @FinishedUnzipping);
+      Queue += PATH + 'zips' + PATH_SEP + current + '.zip';
+    end;
+
+  timer.Start(14000);
+
+  while Queue <> [] do
+  begin
+    Sleep(100);
+    if not timer.IsFinished then
+      Continue;
+
+    WriteLn('Files left: ', ToStr(Queue).Replace(PATH + 'zips' + PATH_SEP, '', True).Replace('.zip', ''));
+    timer.Restart();
+  end;
+
+  Lock.Free();
+
+  for current in MAP_FILES do
+  begin
+    Compress(current);
+
+    while DELETE_FILES and not DirDelete(PATH + 'zips' + PATH_SEP + current, False) do
+    begin
+      WriteLn('Failed to delete dir: ', current);
+      Sleep(100);
+    end;
+
+    Binned += PATH + 'bins' + PATH_SEP + current + '.bin';
+  end;
+
+  WriteLn('Files to zip: ', ToStr(Binned).Replace(PATH, ''));
+
+
+  FileDelete(PATH + 'mapdata.zip');
+  if ZipFiles(PATH + 'mapdata.zip', Binned) then
+    DirDelete(PATH + 'bins', False);
+end.

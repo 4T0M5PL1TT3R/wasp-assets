@@ -1,0 +1,199 @@
+const
+  SINGLE_ITEM: String = '';
+var
+  PATH: String = {$MACRO DIR} + '..' + PATH_SEP + 'finders' + PATH_SEP + 'items' + PATH_SEP;
+  RESET: Boolean = True;
+  CLEANUP: Boolean = True;
+
+procedure LoadArguments();
+begin
+  if GetProcessArg('path') then
+    PATH := GetProcessArg('path');
+  if GetProcessArg('reset') then
+    RESET := GetProcessArg('reset').ToLower() = 'true';
+  if GetProcessArg('cleanup') then
+    CLEANUP := GetProcessArg('cleanup').ToLower() = 'true';
+end;
+
+function TImage.GetHash(): String;
+var
+  pixels: TIntegerArray;
+  str: String;
+  h, i: Int32;
+begin
+  pixels := Self.GetColors();
+
+  h := $811C9DC5;
+  for i:=0 to High(pixels) do
+  begin
+    if pixels[i] = $0 then
+      Continue;
+    h := (h * $1000193) xor pixels[i];
+  end;
+
+  str := LowerCase(IntToHex(h, 16));
+  Result := str.CopyRange(Length(str)-8, Length(str));
+end;
+
+type
+  TItemData = record
+    ItemID: Int32;
+    BorderHash, ItemHash, ItemHash1400: String;
+  end;
+
+  TItemDataArray = array of TItemData;
+
+function CompareItemData(constref a, b: TItemData): Integer;
+begin
+  Result := a.ItemID - b.ItemID;
+end;
+
+procedure PrepareResources(out files: TStringArray);
+begin
+  if RESET and DirExists(PATH + 'items-imgs') then
+  begin
+    WriteLn('Resetting resources.');
+    DirDelete(PATH + 'items', False);
+    DirDelete(PATH + 'masks', False);
+  end;
+
+  if FileExists(PATH + 'data' + PATH_SEP + 'hash.txt') then
+    if not FileDelete(PATH + 'data' + PATH_SEP + 'hash.txt') then
+      raise 'Couldn''t delete ' + PATH + 'data' + PATH_SEP + 'hash.txt';
+
+  if FileExists(PATH + 'data' + PATH_SEP + '1400' + PATH_SEP + 'hash.txt') then
+    if not FileDelete(PATH + 'data' + PATH_SEP + '1400' + PATH_SEP + 'hash.txt') then
+      raise 'Couldn''t delete ' + PATH + 'data' + PATH_SEP + '1400' + PATH_SEP + 'hash.txt';
+
+  files := DirList(PATH + 'items-imgs', True);
+  if files = [] then
+  begin
+    WriteLn('Extracting item images.');
+    if not ZipExtract(PATH + 'items-imgs.zip', PATH + 'items-imgs') then
+      raise 'Failed to unzip files.';
+    files := DirList(PATH + 'items-imgs', True);
+  end;
+
+  DirCreate(PATH + 'masks');
+
+  WriteLn('Preparation done.');
+end;
+
+var
+  ITEM_DATA_ARRAY: TItemDataArray;
+  UNIQUE_ITEM_DATA_ARRAY: TStringArray;
+  UNIQUE_BORDER_DATA_ARRAY: TStringArray;
+
+function ProcessItemImage(filename: String): TItemData;
+var
+  img, border, mask: TImage;
+  tpa: TPointArray;
+begin
+  if SINGLE_ITEM <> '' then
+    if not filename.EndsWith(SINGLE_ITEM + '.png') then Exit;
+
+  img := new TImage(filename);
+
+  img.FillWithAlpha($FF);        //ensure there's no weird alphas.
+  img.ReplaceColor($202030, $0); //remove the item shadow
+
+  //find border minus stack number space
+  tpa := img.FindColor($010000, 0, [0, 9, 35, 31]);
+
+  img.DrawColor := $0;
+  img.DrawBoxFilled([0,0,35,8]);
+
+  border := new TImage(36, 32);
+  border.DrawColor := $FFFFFF;
+  border.DrawTPA(tpa);
+
+  Result.ItemID       := PathExtractNameWithoutExt(filename).ExtractInteger();
+  Result.BorderHash   := HashData(EHashAlgo.CRC32, border.Data, 4608); //h * w * 4 = 4608
+  Result.ItemHash     := HashData(EHashAlgo.CRC32, img.Data, 4608);
+  Result.ItemHash1400 := img.GetHash();
+
+  if SINGLE_ITEM <> '' then
+  begin
+    WriteLn('Item:     ', Result.ItemID);
+    WriteLn('Border:   ', Result.BorderHash);
+    WriteLn('Hash:     ', Result.ItemHash);
+    WriteLn('Hash1400: ', Result.ItemHash1400);
+    img.Show();
+  end;
+
+  ITEM_DATA_ARRAY += Result;
+
+  if not UNIQUE_ITEM_DATA_ARRAY.Contains(Result.ItemHash) then
+    UNIQUE_ITEM_DATA_ARRAY += Result.ItemHash;
+
+  if UNIQUE_BORDER_DATA_ARRAY.Contains(Result.BorderHash) then
+    Exit;
+
+  UNIQUE_BORDER_DATA_ARRAY += Result.BorderHash;
+
+  mask := new TImage(36, 32);
+  mask.DrawColor := $FFFFFF;
+  mask.DrawTPA(img.FindColor($0, 0, [0, 9, 35, 31]).Invert());
+
+  mask.Save(PATH + 'masks' + PATH_SEP + Result.BorderHash + '.bmp', True);
+end;
+
+procedure WriteFiles();
+var
+  itemData: TItemData;
+  hashes, hashes1400: String;
+  writer: TResourceWriter;
+begin
+  for itemData in ITEM_DATA_ARRAY do
+  begin
+    hashes += itemData.ItemHash + LINE_SEP;
+    hashes1400 += itemData.ItemHash1400 + LINE_SEP;
+  end;
+
+  FileWrite(PATH + 'data' + PATH_SEP + 'hash.txt', hashes);
+  FileWrite(PATH + 'data' +PATH_SEP + '1400' + PATH_SEP + 'hash.txt', hashes1400);
+
+  if FileExists(PATH + 'items.bin') then
+    if not FileDelete(PATH + 'items.bin') then
+      raise 'Couldn''t delete ' + PATH + 'items.bin';
+
+  writer := new TResourceWriter();
+  writer.AddImages(PATH + 'items-imgs', '*.png', False);
+  writer.AddImages(PATH + 'masks', '*.bmp', False);
+  writer.Save(PATH + 'items.bin');
+
+  if FileExists(PATH + 'items.zip') then
+    if not FileDelete(PATH + 'items.zip') then
+      raise 'Couldn''t delete ' + PATH + 'items.zip';
+
+  if not ZipFiles(PATH + 'items.zip', [PATH + 'items.bin']) then
+    raise 'Couldn''t zip ' + PATH + 'items.bin';
+
+  if CLEANUP then
+  begin
+    DirDelete(PATH + 'items-imgs', False);
+    DirDelete(PATH + 'masks', False);
+  end;
+end;
+
+var
+  files: TStringArray;
+  filename: String;
+begin
+  ClearSimbaOutput();
+  LoadArguments();
+
+  PrepareResources(files);
+
+  for filename in files do
+    ProcessItemImage(filename);
+
+  WriteLn('Total items: ', Length(ITEM_DATA_ARRAY));
+  WriteLn('Total unique items: ', Length(UNIQUE_ITEM_DATA_ARRAY));
+  WriteLn('Total unique borders: ', Length(UNIQUE_BORDER_DATA_ARRAY));
+
+  WriteLn('Sorting data.');
+  ITEM_DATA_ARRAY.Sort(@CompareItemData);
+  WriteLn('Saving files.');
+  WriteFiles();
+end.

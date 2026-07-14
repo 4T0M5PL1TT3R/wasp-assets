@@ -1,0 +1,26 @@
+var
+  path: String = {$macro DIR} + '..' + PATH_SEP;
+  files: TStringArray;
+  i: Integer;
+  hash: String;
+  json: TJSONParser;
+begin
+  path := PathNormalize(path);
+  WriteLn path;
+
+  files := FileReadLines(path + 'tools' + PATH_SEP + 'whitelist.txt');
+
+  FileDelete(path + 'hashes.json');
+
+  json := new TJSONParser();
+
+  for i := 0 to High(files) do
+  begin
+    if files[i] = 'hashes.json' then Continue;
+    hash := HashFile(EHashAlgo.CRC32, path + files[i]);
+    WriteLn('File: ', files[i], ' Hash: ', hash);
+    json.AddString(files[i], hash);
+  end;
+
+  json.Save(path + 'hashes.json', [EJSONFormatOption.NO_WHITESPACE, EJSONFormatOption.SINGLE_LINE_OBJ]);
+end.
