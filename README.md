@@ -3,7 +3,7 @@ Data files for WaspLib.
 These are semi-automated cache dumps
 
 ## Sections
-- [Add assets to wasp](#add-assets-t-wasp)
+- [Add assets to wasp](#add-assets-to-wasp)
 - [Forking the repository](#forking-the-repository)
 - [Enabling GitHub actions](#enabling-github-actions)
 - [Merging updates](#merging-updates)
