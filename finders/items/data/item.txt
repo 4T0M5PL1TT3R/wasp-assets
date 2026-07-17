@@ -76,10 +76,6 @@ khazard armour
 khazard cell keys
 khali brew
 ice arrows
-ice arrows
-ice arrows
-ice arrows
-ice arrows
 lever
 staff of armadyl
 shiny key
@@ -289,12 +285,10 @@ noted goblin mail
 research package
 research notes
 book on baxtorian
-key
 glarial's pebble
 glarial's amulet
 glarial's urn
 glarial's urn (empty)
-key
 mithril seeds
 rat's tail
 lobster pot
@@ -339,8 +333,6 @@ cod
 noted cod
 raw cod
 noted raw cod
-burnt fish
-noted burnt fish
 raw herring
 noted raw herring
 herring
@@ -353,8 +345,6 @@ raw mackerel
 noted raw mackerel
 mackerel
 noted mackerel
-burnt fish
-noted burnt fish
 raw tuna
 noted raw tuna
 tuna
@@ -363,10 +353,6 @@ raw bass
 noted raw bass
 bass
 noted bass
-burnt fish
-noted burnt fish
-burnt fish
-noted burnt fish
 raw swordfish
 noted raw swordfish
 swordfish
@@ -420,9 +406,6 @@ distillator
 lathas' amulet
 bird feed
 pigeon cage
-pigeon cage
-priest gown
-noted priest gown
 priest gown
 noted priest gown
 medical gown
@@ -451,7 +434,6 @@ noted runite ore
 coal
 noted coal
 barcrawl card
-scorpion cage
 scorpion cage
 strange fruit
 noted strange fruit
@@ -552,8 +534,6 @@ black robe
 noted black robe
 bailing bucket
 noted bailing bucket
-bailing bucket
-noted bailing bucket
 orb of protection
 orbs of protection
 gnome amulet
@@ -578,10 +558,6 @@ tattered scroll
 crumpled scroll
 rashiliyia corpse
 zadimus corpse
-locating crystal
-locating crystal
-locating crystal
-locating crystal
 locating crystal
 beads of the dead
 coins
@@ -644,8 +620,6 @@ cracked sample
 rock pick
 trowel
 panning tray
-panning tray
-panning tray
 nuggets
 ancient talisman
 unstamped letter
@@ -672,14 +646,12 @@ unidentified liquid
 nitroglycerin
 ground charcoal
 mixed chemicals
-mixed chemicals
 chemical compound
 arcenia root
 vase
 book on chemicals
 cup of tea
 clue scroll
-radimus notes
 radimus notes
 bullroarer
 scrawled note
@@ -697,15 +669,12 @@ holy water
 smashed glass
 noted smashed glass
 yommi tree seeds
-yommi tree seeds
 snakeweed mixture
 ardrigal mixture
 bravery potion
-blue hat
 chunk of crystal
 hunk of crystal
 lump of crystal
-heart crystal
 heart crystal
 dark dagger
 glowing dagger
@@ -726,7 +695,6 @@ intel report
 falador shield
 broken shield
 coal bag
-broken shield
 gem bag
 phoenix crossbow
 noted phoenix crossbow
@@ -741,8 +709,6 @@ goldsmith gauntlets
 chaos gauntlets
 steel gauntlets
 crest part
-crest part
-crest part
 family crest
 bark sample
 translation book
@@ -750,9 +716,6 @@ glough's journal
 hazelmere's scroll
 lumber order
 glough's key
-twigs
-twigs
-twigs
 twigs
 daconia rock
 invasion plans
@@ -851,54 +814,6 @@ adamant arrow
 adamant arrow(p)
 rune arrow
 rune arrow(p)
-bronze arrow
-bronze arrow
-bronze arrow
-bronze arrow
-bronze arrow(p)
-bronze arrow(p)
-bronze arrow(p)
-bronze arrow(p)
-iron arrow
-iron arrow
-iron arrow
-iron arrow
-iron arrow(p)
-iron arrow(p)
-iron arrow(p)
-iron arrow(p)
-steel arrow
-steel arrow
-steel arrow
-steel arrow
-steel arrow(p)
-steel arrow(p)
-steel arrow(p)
-steel arrow(p)
-mithril arrow
-mithril arrow
-mithril arrow
-mithril arrow
-mithril arrow(p)
-mithril arrow(p)
-mithril arrow(p)
-mithril arrow(p)
-adamant arrow
-adamant arrow
-adamant arrow
-adamant arrow
-adamant arrow(p)
-adamant arrow(p)
-adamant arrow(p)
-adamant arrow(p)
-rune arrow
-rune arrow
-rune arrow
-rune arrow
-rune arrow(p)
-rune arrow(p)
-rune arrow(p)
-rune arrow(p)
 bronze fire arrow (lit)
 worm
 noted worm
@@ -928,7 +843,6 @@ rock
 noted rock
 papyrus
 noted papyrus
-papyrus
 charcoal
 noted charcoal
 machete
@@ -949,15 +863,6 @@ muddy key
 noted muddy key
 sinister key
 noted sinister key
-coins
-coins
-coins
-coins
-coins
-coins
-coins
-coins
-coins
 white apron
 noted white apron
 red cape
@@ -1363,7 +1268,6 @@ noted mystic air staff
 mystic earth staff
 noted mystic earth staff
 iban's staff
-iban's staff
 farmer's fork
 noted farmer's fork
 halberd
@@ -1417,11 +1321,9 @@ soul talisman
 nature talisman
 noted nature talisman
 archery ticket
-weapon poison
 sea slug
 damp sticks
 dry sticks
-broken glass
 red bead
 noted red bead
 yellow bead
@@ -1432,12 +1334,9 @@ white bead
 noted white bead
 amulet of accuracy
 noted amulet of accuracy
-rock
 orb of light
 oily cloth
 piece of railing
-paladin's badge
-paladin's badge
 paladin's badge
 witch's cat
 doll of iban
@@ -1457,7 +1356,6 @@ ardougne teleport scroll
 gas mask
 a small key
 a scruffy note
-book
 picture
 logs
 noted logs
@@ -1484,19 +1382,11 @@ volencia moss
 grimy rogue's purse
 rogue's purse
 map part
-map part
-map part
 crandor map
 steel nails
 anti-dragon shield
 noted anti-dragon shield
 maze key
-key
-key
-key
-key
-key
-key
 stake
 garlic
 noted garlic
@@ -1504,22 +1394,6 @@ seasoned sardine
 noted seasoned sardine
 fluffs' kitten
 pet kitten
-pet kitten
-pet kitten
-pet kitten
-pet kitten
-pet kitten
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
-pet cat
 pet cat
 doogle leaves
 noted doogle leaves
@@ -1537,7 +1411,6 @@ oily fishing rod
 miscellaneous key
 noted miscellaneous key
 grip's keyring
-buchu seed
 dusty key
 jail key
 ring mould
@@ -1596,9 +1469,6 @@ noted diamond ring
 dragonstone ring
 noted dragonstone ring
 bullet arrow
-bullet arrow
-bullet arrow
-glistening tear
 glistening tear
 gold necklace
 noted gold necklace
@@ -1614,9 +1484,6 @@ dragon necklace
 noted dragon necklace
 dragonstone dragon bolts (e)
 onyx dragon bolts (e)
-onyx dragon bolts (e)
-onyx dragon bolts (e)
-onyx dragon bolts (e)
 gold amulet (u)
 noted gold amulet (u)
 sapphire amulet (u)
@@ -1631,10 +1498,6 @@ dragonstone amulet (u)
 noted dragonstone amulet (u)
 karamja gloves
 diamond dragon bolts (e)
-diamond dragon bolts (e)
-diamond dragon bolts (e)
-diamond dragon bolts (e)
-dragonstone dragon bolts (e)
 gold amulet
 noted gold amulet
 sapphire amulet
@@ -1741,14 +1604,10 @@ bronze wire
 noted bronze wire
 silver necklace
 silver cup
-silver cup
-silver bottle
 silver bottle
 silver book
 silver needle
 silver pot
-criminal's thread
-criminal's thread
 criminal's thread
 flypaper
 pungent pot
@@ -1793,7 +1652,6 @@ tenti pineapple
 bedabin key
 prototype dart tip
 shantay pass
-rock
 guide book
 totem
 address label
@@ -1903,8 +1761,6 @@ banana
 noted banana
 cabbage
 noted cabbage
-cabbage
-noted cabbage
 spinach roll
 noted spinach roll
 kebab
@@ -1975,54 +1831,20 @@ premade wiz blz'd
 noted premade wiz blz'd
 unfinished cocktail
 noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
 pineapple punch
 noted pineapple punch
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
 wizard blizzard
 noted wizard blizzard
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
 blurberry special
 noted blurberry special
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
 choc saturday
 noted choc saturday
-unfinished cocktail
-noted unfinished cocktail
 short green guy
 noted short green guy
-unfinished cocktail
-noted unfinished cocktail
 fruit blast
 noted fruit blast
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
-unfinished cocktail
-noted unfinished cocktail
 drunk dragon
 noted drunk dragon
-odd cocktail
-noted odd cocktail
-odd cocktail
-noted odd cocktail
-odd cocktail
-noted odd cocktail
 odd cocktail
 noted odd cocktail
 lemon
@@ -2104,18 +1926,12 @@ half baked bowl
 raw gnomebowl
 unfinished bowl
 noted unfinished bowl
-unfinished bowl
-noted unfinished bowl
 chocolate bomb
 noted chocolate bomb
 tangled toad's legs
 noted tangled toad's legs
-unfinished bowl
-noted unfinished bowl
 worm hole
 noted worm hole
-unfinished bowl
-noted unfinished bowl
 veg ball
 noted veg ball
 odd crunchies
@@ -2132,12 +1948,8 @@ unfinished crunchy
 noted unfinished crunchy
 chocchip crunchies
 noted chocchip crunchies
-unfinished crunchy
-noted unfinished crunchy
 spicy crunchies
 noted spicy crunchies
-unfinished crunchy
-noted unfinished crunchy
 toad crunchies
 noted toad crunchies
 premade w'm batta
@@ -2178,30 +1990,10 @@ worm batta
 noted worm batta
 toad batta
 noted toad batta
-unfinished batta
-noted unfinished batta
 cheese+tom batta
 noted cheese+tom batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
-unfinished batta
-noted unfinished batta
 fruit batta
 noted fruit batta
-unfinished batta
-noted unfinished batta
 vegetable batta
 noted vegetable batta
 pizza base
@@ -2301,26 +2093,18 @@ ogre tooth
 toban's key
 rock cake
 crystal
-crystal
-crystal
-crystal
 fingernails
 old robe
 unusual armour
 damaged dagger
 tattered eye patch
-vial
-vial
 ground bat bones
 noted ground bat bones
 toban's gold
-potion
 magic ogre potion
 spell scroll
 shaman robe
 cave nightshade
-silverlight key
-silverlight key
 silverlight key
 silverlight
 hazeel scroll
@@ -2330,7 +2114,6 @@ ball
 diary
 door key
 magnet
-key
 saradomin cape
 guthix cape
 zamorak cape
@@ -2338,8 +2121,6 @@ saradomin staff
 guthix staff
 zamorak staff
 bronze key
-wig
-buchu seed
 wig
 key print
 paste
@@ -2428,8 +2209,6 @@ red dragon leather
 noted red dragon leather
 black dragon leather
 noted black dragon leather
-logs
-buchu seed
 dragon chainbody
 rotten tomato
 noted rotten tomato
@@ -2453,14 +2232,6 @@ adamant fire arrow
 adamant fire arrow (lit)
 rune fire arrow
 rune fire arrow (lit)
-bronze fire arrow
-bronze fire arrow
-bronze fire arrow
-bronze fire arrow
-bronze fire arrow (lit)
-bronze fire arrow (lit)
-bronze fire arrow (lit)
-bronze fire arrow (lit)
 ring of recoil
 noted ring of recoil
 ring of dueling(8)
@@ -2605,10 +2376,6 @@ noted achey tree logs
 ogre arrow shaft
 flighted ogre arrow
 ogre arrow
-ogre arrow
-ogre arrow
-ogre arrow
-ogre arrow
 ogre bellows
 ogre bellows (3)
 ogre bellows (2)
@@ -2624,7 +2391,6 @@ seasoned chompy
 ogre bow
 battered book
 battered key
-a stone bowl
 a stone bowl
 elemental shield
 noted elemental shield
@@ -2714,23 +2480,6 @@ noted mort myre pear
 sickle mould
 noted sickle mould
 chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
-chompy bird hat
 agility arena ticket
 pirate's hook
 toadflax
@@ -2799,16 +2548,7 @@ mime gloves
 mime boots
 strange box
 bronze javelin tips
-bronze javelin tips
-bronze javelin tips
-bronze javelin tips
 iron javelin tips
-iron javelin tips
-iron javelin tips
-iron javelin tips
-steel javelin tips
-steel javelin tips
-steel javelin tips
 steel javelin tips
 mithril javelin tips
 black dart
@@ -2828,11 +2568,6 @@ noted climbing boots
 spiked boots
 noted spiked boots
 stone ball
-stone ball
-stone ball
-stone ball
-stone ball
-certificate
 noted bronze claws
 noted iron claws
 noted steel claws
@@ -2847,10 +2582,6 @@ jogre bones
 noted jogre bones
 burnt jogre bones
 pasty jogre bones
-pasty jogre bones
-marinated j' bones
-pasty jogre bones
-pasty jogre bones
 marinated j' bones
 noted granite shield
 prison key
@@ -2864,23 +2595,16 @@ noted raw karambwan
 cooked karambwan
 noted cooked karambwan
 poison karambwan
-cooked karambwan
 burnt karambwan
 noted burnt karambwan
 raw karambwanji
 karambwan paste
-karambwan paste
-karambwan paste
 karambwanji paste
-karambwanji paste
-karambwan vessel
-noted karambwan vessel
 karambwan vessel
 noted karambwan vessel
 crafting manual
 sliced banana
 noted sliced banana
-karamjan rum
 monkey corpse
 monkey skin
 seaweed sandwich
@@ -2930,12 +2654,10 @@ noted limestone
 quicklime
 pot of quicklime
 ground sulphur
-barrel
 noted barrel
 barrel bomb
 barrel of coal tar
 barrel of naphtha
-naphtha mix
 naphtha mix
 strip of cloth
 noted strip of cloth
@@ -2946,30 +2668,18 @@ noted cooked rabbit
 big book of bangs
 symbol
 noted symbol
-symbol
-noted symbol
-symbol
-noted symbol
-symbol
-noted symbol
 bark
 noted bark
 man
-mithril javelin tips
 farmer
-mithril javelin tips
 warrior woman
-mithril javelin tips
 rogue
 adamant javelin tips
 guard
 lava scale shard
 knight
-lava scale shard
 watchman
-lava scale shard
 paladin
-lava scale shard
 gnome
 hero
 goutweed
@@ -3014,14 +2724,6 @@ blamish blue shell
 noted blamish blue shell
 blamish bark shell
 noted blamish bark shell
-blamish myre shell
-noted blamish myre shell
-blamish red shell
-noted blamish red shell
-blamish ochre shell
-noted blamish ochre shell
-blamish blue shell
-noted blamish blue shell
 thin snail
 noted thin snail
 lean snail
@@ -3054,7 +2756,6 @@ splitbark gauntlets
 noted splitbark gauntlets
 splitbark boots
 noted splitbark boots
-diary
 loar remains
 noted loar remains
 phrin remains
@@ -3149,8 +2850,6 @@ gilded full helm
 noted gilded full helm
 gilded kiteshield
 noted gilded kiteshield
-puzzle box (hard)
-puzzle box (hard)
 boss helper tool
 noted black plateskirt (t)
 noted black plateskirt (g)
@@ -3164,11 +2863,6 @@ noted guthix plateskirt
 noted gilded plateskirt
 flamtaer hammer
 noted flamtaer hammer
-shoe
-shoe
-shoe
-shoe
-shoe
 shoe
 fremennik
 unstrung lyre
@@ -3198,7 +2892,6 @@ low alcohol keg
 strange object
 lit strange object
 red disk
-red disk
 blue thread
 small pick
 toy ship
@@ -3214,14 +2907,12 @@ full jug
 1/3rds full jug
 empty jug
 frozen jug
-vase
 vase of water
 frozen vase
 vase lid
 sealed vase
 frozen key
 red herring
-red disk
 wooden disk
 seer's key
 sticky red goop
@@ -3284,26 +2975,6 @@ beer tankard
 noted beer tankard
 tankard
 noted tankard
-bronze bolts
-bronze bolts
-bronze bolts
-bronze bolts
-bronze bolts (p)
-bronze bolts (p)
-bronze bolts (p)
-bronze bolts (p)
-opal bolts
-opal bolts
-opal bolts
-opal bolts
-pearl bolts
-pearl bolts
-pearl bolts
-pearl bolts
-barbed bolts
-barbed bolts
-barbed bolts
-barbed bolts
 saradomin page 1
 saradomin page 2
 saradomin page 3
@@ -3318,12 +2989,8 @@ guthix page 3
 guthix page 4
 damaged book
 holy book
-damaged book
 unholy book
-damaged book
 book of balance
-journal
-diary
 manual
 lighthouse key
 rusty casket
@@ -3345,29 +3012,6 @@ noted games necklace(2)
 games necklace(1)
 noted games necklace(1)
 board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
-board game piece
 stool
 awful anthem
 good anthem
@@ -3378,44 +3022,17 @@ iron sickle
 noted iron sickle
 ghrim's book
 amethyst broad bolts
-adamant javelin tips
-adamant javelin tips
-adamant javelin tips
-rune javelin tips
-rune javelin tips
-rune javelin tips
 rune javelin tips
 dragon javelin tips
-dragon javelin tips
-dragon javelin tips
-dragon javelin tips
-javelin shaft
-javelin shaft
-javelin shaft
 javelin shaft
 amethyst bolt tips
 amylase crystal
-amylase crystal
-amylase crystal
-amylase crystal
 amethyst javelin tips
-amethyst javelin tips
-amethyst javelin tips
-grape seed
-grape seed
-grape seed
 grape seed
 wilderness sword
 western banner
 platinum token
-platinum token
-platinum token
-platinum token
 zulrah's scales
-zulrah's scales
-zulrah's scales
-zulrah's scales
-amethyst broad bolts
 hardy gout tuber
 spare controls
 noted spare controls
@@ -3436,7 +3053,6 @@ monkey wrench
 noted monkey wrench
 m'amulet mould
 m'speak amulet
-m'speak amulet
 monkey talisman
 ninja monkey greegree
 gorilla greegree
@@ -3454,15 +3070,12 @@ zamorak banner
 noted zamorak banner
 saradomin cloak
 zamorak cloak
-rock
-noted rock
 explosive potion
 noted explosive potion
 climbing rope
 noted climbing rope
 bandages
 noted bandages
-toolkit
 noted toolkit
 barricade
 noted barricade
@@ -3470,19 +3083,16 @@ castlewars manual
 castle wars ticket
 decorative sword
 decorative armour
-decorative armour
 decorative helm
 decorative shield
 damp tinderbox
 noted damp tinderbox
 glowing fungus
-amethyst broad bolts
 crystal-mine key
 zealot's key
 yo-yo
 salve amulet
 salve shard
-sled
 sled
 wax
 trollweiss
@@ -3558,7 +3168,6 @@ enchanted gem
 mirror shield
 noted mirror shield
 leaf-bladed spear
-broad arrows
 bag of salt
 rock hammer
 noted rock hammer
@@ -3570,11 +3179,6 @@ nose peg
 noted nose peg
 slayer's staff
 noted slayer's staff
-broad arrows
-broad arrows
-broad arrows
-broad arrows
-amethyst broad bolts
 stick
 mouth grip
 star amulet
@@ -3590,14 +3194,11 @@ torso
 arms
 legs
 decapitated head
-decapitated head
 pickled brain
 conductor mould
 conductor
 ring of charos
-journal
 letter
-consecration seed
 consecration seed
 crystal weapon seed
 noted crystal weapon seed
@@ -3630,18 +3231,11 @@ signed oak bow
 nettle-water
 puddle of slime
 nettle tea
-nettle tea
 nettles
-cup of tea
-cup of tea
 porcelain cup
-cup of tea
-cup of tea
 mystical robes
 book of haricanto
 translation manual
-ghostspeak amulet
-ectophial
 ectophial
 model ship
 bonemeal
@@ -3661,30 +3255,13 @@ small zombie monkey bonemeal
 large zombie monkey bonemeal
 skeleton bonemeal
 jogre bonemeal
-bone key
-map scrap
-map scrap
 map scrap
 treasure map
 ecto-token
-ecto-token
-broad bolts
-ecto-token
-broad bolts
 petition form
 bedsheet
-bedsheet
 bucket of slime
-raw beef
-noted raw beef
-raw chicken
-noted raw chicken
-cooked chicken
-noted cooked chicken
-cooked meat
-noted cooked meat
 female h.a.m.
-broad bolts
 male h.a.m.
 ham shirt
 noted ham shirt
@@ -3819,9 +3396,7 @@ iron oxide
 animate rock scroll
 broken vane part
 directionals
-broken vane part
 ornament
-broken vane part
 weathervane pillar
 weather report
 airtight pot
@@ -3837,9 +3412,6 @@ red mahogany log
 steel key ring
 antique lamp
 broad arrowheads
-broad arrowheads
-broad arrowheads
-broad arrowheads
 bowl of hot water
 noted bowl of hot water
 cup of water
@@ -3848,24 +3420,6 @@ cup of hot water
 noted cup of hot water
 ruined herb tea
 noted ruined herb tea
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
-herb tea mix
-noted herb tea mix
 herb tea mix
 noted herb tea mix
 safety guarantee
@@ -3881,22 +3435,7 @@ noted muddy rock
 pole
 broken pole
 noted broken pole
-rope
-noted rope
-pole
 bearhead
-decorative sword
-decorative armour
-decorative armour
-decorative helm
-decorative shield
-decorative sword
-decorative armour
-decorative armour
-decorative helm
-decorative shield
-castlewars hood
-castlewars cloak
 castlewars hood
 castlewars cloak
 giant frog legs
@@ -3906,22 +3445,16 @@ swamp cave slime
 swamp cave bug
 oil lamp
 noted oil lamp
-oil lamp
 empty oil lamp
 noted empty oil lamp
 empty candle lantern
 noted empty candle lantern
 candle lantern
 noted candle lantern
-candle lantern
-candle lantern
-noted candle lantern
-candle lantern
 empty oil lantern
 noted empty oil lantern
 oil lantern
 noted oil lantern
-oil lantern
 oil lantern frame
 noted oil lantern frame
 lantern lens
@@ -3932,7 +3465,6 @@ bullseye lantern (empty)
 noted bullseye lantern (empty)
 bullseye lantern
 noted bullseye lantern
-bullseye lantern
 spiny helmet
 noted spiny helmet
 blue sweets
@@ -3950,12 +3482,9 @@ book page 1
 book page 2
 book page 3
 pages
-pages
 base schematics
 schematic
 schematics
-schematics
-schematic
 cannon ball
 black spear
 noted black spear
@@ -3978,7 +3507,6 @@ note
 oak blackjack
 willow blackjack
 ugthanki dung
-ugthanki dung
 receipt
 hag's poison
 snake charm
@@ -3991,7 +3519,6 @@ desert disguise
 noted willow blackjack
 spinning plate
 broken plate
-letter
 varmen's notes
 display cabinet key
 statuette
@@ -4002,7 +3529,6 @@ black dye
 phoenix quill pen
 golem program
 bandit
-unfinished broad bolts
 bandit's brew
 noted bandit's brew
 fire
@@ -4010,9 +3536,6 @@ etchings
 translation
 warm key
 ring of visibility
-silver pot
-blessed pot
-silver pot
 blessed pot
 garlic powder
 noted garlic powder
@@ -4025,11 +3548,6 @@ ancient staff
 noted ancient staff
 catspeak amulet
 canopic jar
-canopic jar
-canopic jar
-canopic jar
-holy symbol
-unholy symbol
 linen
 noted linen
 embalming manual
@@ -4047,10 +3565,8 @@ smoke rune
 mud rune
 lava rune
 sapphire lantern
-sapphire lantern
 magic stone
 stone bowl
-unfinished broad bolts
 crumbling tome
 ahrim's hood
 noted ahrim's hood
@@ -4085,10 +3601,6 @@ noted karil's leathertop
 karil's leatherskirt
 noted karil's leatherskirt
 bolt rack
-bolt rack
-bolt rack
-bolt rack
-bolt rack
 torag's helm
 noted torag's helm
 torag's hammers
@@ -4105,51 +3617,14 @@ verac's brassard
 noted verac's brassard
 verac's plateskirt
 noted verac's plateskirt
-amethyst bolt tips
 amethyst arrow(p)
-amethyst arrow(p)
-amethyst arrow(p)
-amethyst arrow(p)
-amethyst bolt tips
-amethyst bolt tips
-amethyst arrow
-amethyst arrow
-amethyst arrow
 amethyst arrow
 bronze brutal
-bronze brutal
-bronze brutal
-bronze brutal
-bronze brutal
-iron brutal
-iron brutal
-iron brutal
-iron brutal
 iron brutal
 steel brutal
-steel brutal
-steel brutal
-steel brutal
-steel brutal
-black brutal
-black brutal
-black brutal
-black brutal
 black brutal
 mithril brutal
-mithril brutal
-mithril brutal
-mithril brutal
-mithril brutal
 adamant brutal
-adamant brutal
-adamant brutal
-adamant brutal
-adamant brutal
-rune brutal
-rune brutal
-rune brutal
-rune brutal
 rune brutal
 black prism
 torn page
@@ -4157,7 +3632,6 @@ ruined backpack
 dragon inn tankard
 zogre bones
 noted zogre bones
-sithik portrait
 sithik portrait
 signed portrait
 book of portraiture
@@ -4182,8 +3656,6 @@ noted ourg bones
 strange potion
 necromancy book
 ogre gate key
-unfinished potion
-noted unfinished potion
 relicym's balm(4)
 noted relicym's balm(4)
 relicym's balm(3)
@@ -4354,53 +3826,24 @@ goblin symbol book
 silverware
 peace treaty
 mining helmet
-mining helmet
 noted mining helmet
 bone spear
 noted bone spear
 bone club
 noted bone club
 minecart ticket
-minecart ticket
-minecart ticket
-minecart ticket
-woven top
-noted woven top
-woven top
-noted woven top
 woven top
 noted woven top
 shirt
 noted shirt
-shirt
-noted shirt
-shirt
-noted shirt
-trousers
-noted trousers
-trousers
-noted trousers
 trousers
 noted trousers
 shorts
 noted shorts
-shorts
-noted shorts
-shorts
-noted shorts
-skirt
-noted skirt
-skirt
-noted skirt
 skirt
 noted skirt
 dwarf
 noted dwarf
-dwarven battleaxe
-dwarven battleaxe
-dwarven battleaxe
-dwarven battleaxe
-dwarven battleaxe
 dwarven battleaxe
 left boot
 right boot
@@ -4409,15 +3852,7 @@ book on costumes
 meeting notes
 exquisite clothes
 master farmer
-unfinished broad bolts
 bird nest
-bird nest
-bird nest
-bird nest
-bird nest
-bird nest
-bird's egg
-bird's egg
 bird's egg
 varrock armour
 sea snake
@@ -4435,181 +3870,27 @@ jangerberry seed
 whiteberry seed
 poison ivy seed
 yew seed
-yew seed
-yew seed
-yew seed
-acorn
-acorn
-acorn
 acorn
 willow seed
-willow seed
-willow seed
-willow seed
-maple seed
-maple seed
-maple seed
 maple seed
 magic seed
-magic seed
-magic seed
-magic seed
 spirit seed
-spirit seed
-spirit seed
-spirit seed
-marigold seed
-marigold seed
-marigold seed
-marigold seed
-rosemary seed
-rosemary seed
-rosemary seed
-rosemary seed
-sweetcorn seed
-sweetcorn seed
-sweetcorn seed
 sweetcorn seed
 watermelon seed
-watermelon seed
-watermelon seed
-watermelon seed
-strawberry seed
-strawberry seed
-strawberry seed
 strawberry seed
 tomato seed
-tomato seed
-tomato seed
-tomato seed
-cabbage seed
-cabbage seed
-cabbage seed
 cabbage seed
 onion seed
-onion seed
-onion seed
-onion seed
 potato seed
-potato seed
-potato seed
-potato seed
-barley seed
-barley seed
-barley seed
 barley seed
 seeds
 jute seed
-jute seed
-jute seed
-jute seed
-hammerstone seed
-hammerstone seed
-hammerstone seed
 hammerstone seed
 asgarnian seed
-asgarnian seed
-asgarnian seed
-asgarnian seed
-yanillian seed
-yanillian seed
-yanillian seed
 yanillian seed
 krandorian seed
-krandorian seed
-krandorian seed
-krandorian seed
 wildblood seed
-wildblood seed
-wildblood seed
-wildblood seed
-nasturtium seed
-nasturtium seed
-nasturtium seed
-nasturtium seed
-woad seed
-woad seed
-woad seed
-woad seed
-redberry seed
-redberry seed
-redberry seed
-redberry seed
-cadavaberry seed
-cadavaberry seed
-cadavaberry seed
-cadavaberry seed
-dwellberry seed
-dwellberry seed
-dwellberry seed
-dwellberry seed
-jangerberry seed
-jangerberry seed
-jangerberry seed
-jangerberry seed
-whiteberry seed
-whiteberry seed
-whiteberry seed
-whiteberry seed
 guam seed
-guam seed
-guam seed
-guam seed
-apple tree seed
-apple tree seed
-apple tree seed
-apple tree seed
-banana tree seed
-banana tree seed
-banana tree seed
-banana tree seed
-orange tree seed
-orange tree seed
-orange tree seed
-orange tree seed
-curry tree seed
-curry tree seed
-curry tree seed
-curry tree seed
-pineapple seed
-pineapple seed
-pineapple seed
-pineapple seed
-papaya tree seed
-papaya tree seed
-papaya tree seed
-papaya tree seed
-palm tree seed
-palm tree seed
-palm tree seed
-palm tree seed
-calquat tree seed
-calquat tree seed
-calquat tree seed
-calquat tree seed
-mushroom spore
-mushroom spore
-mushroom spore
-mushroom spore
-cactus seed
-cactus seed
-cactus seed
-cactus seed
-limpwurt seed
-limpwurt seed
-limpwurt seed
-limpwurt seed
-belladonna seed
-belladonna seed
-belladonna seed
-belladonna seed
-woad leaf
-woad leaf
-woad leaf
-woad leaf
-cactus seed
-belladonna seed
-mushroom spore
 apple tree seed
 banana tree seed
 orange tree seed
@@ -4618,27 +3899,9 @@ pineapple seed
 papaya tree seed
 palm tree seed
 calquat tree seed
-guam seed
-barley seed
-jute seed
-hammerstone seed
-asgarnian seed
-yanillian seed
-krandorian seed
-wildblood seed
-acorn
-willow seed
-maple seed
-yew seed
-magic seed
-spirit seed
-potato seed
-onion seed
-sweetcorn seed
-watermelon seed
-tomato seed
-strawberry seed
-cabbage seed
+mushroom spore
+cactus seed
+belladonna seed
 gardening trowel
 noted gardening trowel
 spade handle
@@ -4825,14 +4088,10 @@ strange book
 book of folklore
 small pouch
 medium pouch
-medium pouch
 large pouch
-large pouch
-giant pouch
 giant pouch
 elemental talisman
 noted elemental talisman
-scrying orb
 scrying orb
 abyssal book
 binding necklace
@@ -4877,14 +4136,6 @@ flash powder
 stethoscope
 mystic jewel
 gear
-gear
-gear
-gear
-gear
-gear
-tile
-tiles
-tiles
 tiles
 desert amulet
 initiate sallet
@@ -4898,16 +4149,10 @@ nitrous oxide
 vial of liquid
 tin ore powder
 cupric ore powder
-bronze key
-metal spade
 metal spade
 alchemical notes
 ??? mixture
 tin
-tin
-tin
-magnet
-grain
 fox
 chicken
 hourglass
@@ -5032,13 +4277,11 @@ rune spear(p++)
 noted rune spear(p++)
 dragon spear(p++)
 noted dragon spear(p++)
-stool
 rotten potato
 black spear(p+)
 noted black spear(p+)
 black spear(p++)
 noted black spear(p++)
-woad leaf
 asgarnian ale(m)
 noted asgarnian ale(m)
 mature wmb
@@ -5352,7 +4595,6 @@ noted spirit roots
 weeds
 noted weeds
 hay sack
-hay sack
 scarecrow
 noted stool
 bronze bolts (p+)
@@ -5402,22 +4644,14 @@ new key
 elf
 ghostly boots
 ghostly robe
-ghostly robe
 ghostly hood
 ghostly gloves
 ghostly cloak
 kelda seed
 kelda hops
-kelda seed
-kelda seed
-kelda seed
-kelda seed
 kelda stout
 square stone
-square stone
-letter
 a chair
-beer glass
 noted coconut milk
 enchanted lyre(2)
 enchanted lyre(3)
@@ -5486,58 +4720,11 @@ mystery box
 raw fishlike thing
 blunt arrow
 fishlike thing
-blunt arrow
-barbed arrow
-barbed arrow
 barbed arrow
 teak pyre logs
 noted teak pyre logs
 mahogany pyre logs
 noted mahogany pyre logs
-broodoo shield (10)
-noted broodoo shield (10)
-broodoo shield (9)
-noted broodoo shield (9)
-broodoo shield (8)
-noted broodoo shield (8)
-broodoo shield (7)
-noted broodoo shield (7)
-broodoo shield (6)
-noted broodoo shield (6)
-broodoo shield (5)
-noted broodoo shield (5)
-broodoo shield (4)
-noted broodoo shield (4)
-broodoo shield (3)
-noted broodoo shield (3)
-broodoo shield (2)
-noted broodoo shield (2)
-broodoo shield (1)
-noted broodoo shield (1)
-broodoo shield
-noted broodoo shield
-broodoo shield (10)
-noted broodoo shield (10)
-broodoo shield (9)
-noted broodoo shield (9)
-broodoo shield (8)
-noted broodoo shield (8)
-broodoo shield (7)
-noted broodoo shield (7)
-broodoo shield (6)
-noted broodoo shield (6)
-broodoo shield (5)
-noted broodoo shield (5)
-broodoo shield (4)
-noted broodoo shield (4)
-broodoo shield (3)
-noted broodoo shield (3)
-broodoo shield (2)
-noted broodoo shield (2)
-broodoo shield (1)
-noted broodoo shield (1)
-broodoo shield
-noted broodoo shield
 broodoo shield (10)
 noted broodoo shield (10)
 broodoo shield (9)
@@ -5576,19 +4763,9 @@ spider on stick
 noted spider on stick
 spider on shaft
 noted spider on shaft
-spider on stick
-noted spider on stick
-spider on shaft
-noted spider on shaft
 burnt spider
 noted burnt spider
-spider on shaft
-noted spider on shaft
 skewer stick
-trading sticks
-trading sticks
-trading sticks
-trading sticks
 trading sticks
 gout tuber
 noted gout tuber
@@ -5598,8 +4775,6 @@ jade machete
 noted jade machete
 red topaz machete
 noted red topaz machete
-proboscis
-proboscis
 proboscis
 snakeskin body
 noted snakeskin body
@@ -5616,10 +4791,6 @@ teak logs
 noted teak logs
 tribal mask
 noted tribal mask
-tribal mask
-noted tribal mask
-tribal mask
-noted tribal mask
 tribal top
 noted tribal top
 villager robe
@@ -5630,45 +4801,12 @@ villager armband
 noted villager armband
 villager sandals
 noted villager sandals
-tribal top
-noted tribal top
-villager robe
-noted villager robe
-villager hat
-noted villager hat
-villager sandals
-noted villager sandals
-villager armband
-noted villager armband
-tribal top
-noted tribal top
-villager robe
-noted villager robe
-villager hat
-noted villager hat
-villager sandals
-noted villager sandals
-villager armband
-noted villager armband
-tribal top
-noted tribal top
-villager robe
-noted villager robe
-villager hat
-noted villager hat
-villager sandals
-noted villager sandals
-villager armband
-noted villager armband
-barbed arrow
 fez
 noted fez
 desert top
 noted desert top
 desert robes
 noted desert robes
-desert top
-noted desert top
 desert legs
 noted desert legs
 menaphite purple hat
@@ -5710,14 +4848,6 @@ noted death rune
 noted law rune
 noted mind rune
 noted body rune
-arrow shaft
-arrow shaft
-arrow shaft
-arrow shaft
-headless arrow
-headless arrow
-headless arrow
-headless arrow
 spadeful of coke
 kandarin headgear
 mage arena cape
@@ -5727,16 +4857,13 @@ pink rose seed
 vine seed
 delphinium seed
 orchid seed
-orchid seed
 snowdrop seed
-white tree shoot
 white tree shoot
 white tree shoot (w)
 white tree sapling
 ring of charos(a)
 rune shards
 rune dust
-plant cure
 white tree fruit
 compost potion(4)
 noted compost potion(4)
@@ -5748,42 +4875,6 @@ compost potion(1)
 noted compost potion(1)
 trolley
 list
-white rose seed
-white rose seed
-white rose seed
-white rose seed
-red rose seed
-red rose seed
-red rose seed
-red rose seed
-pink rose seed
-pink rose seed
-pink rose seed
-pink rose seed
-vine seed
-vine seed
-vine seed
-vine seed
-delphinium seed
-delphinium seed
-delphinium seed
-delphinium seed
-orchid seed
-orchid seed
-orchid seed
-orchid seed
-orchid seed
-orchid seed
-orchid seed
-orchid seed
-snowdrop seed
-snowdrop seed
-snowdrop seed
-snowdrop seed
-agility jump
-agility balance
-agility contortion
-agility climb
 agility jump
 agility balance
 agility contortion
@@ -5795,11 +4886,6 @@ toktz-xil-ek
 toktz-mej-tal
 tzhaar-ket-em
 tzhaar-ket-om
-tokkul
-tokkul
-tokkul
-tokkul
-tokkul
 tokkul
 noted toktz-xil-ak
 noted toktz-ket-xil
@@ -5815,22 +4901,10 @@ recipe
 doctor's hat
 nurse hat
 lazy cat
-lazy cat
-lazy cat
-lazy cat
-lazy cat
-lazy cat
-wily cat
-wily cat
-wily cat
-wily cat
-wily cat
 wily cat
 ahab's beer
 mud battlestaff
 mystic mud staff
-glistening tear
-dragonstone dragon bolts (e)
 obsidian cape
 noted obsidian cape
 fire cape
@@ -5910,29 +4984,21 @@ cyan crystal
 blue crystal
 magenta crystal
 fractured crystal
-fractured crystal
 item list
 edern's journal
 blackened crystal
-newly made crystal
 newly made crystal
 crystal trinket
 camo top
 camo bottoms
 camo helmet
-camo top
 fishing explosive
 mogre
 broken fishing rod
 forlorn boot
-fishing explosive
 mudskipper hat
 flippers
 empty fishbowl
-fishbowl
-fishbowl
-fishbowl
-fishbowl
 fishbowl
 fishbowl and net
 tiny net
@@ -5973,15 +5039,12 @@ slayer gloves
 fever spider
 blindweed seed
 blindweed
-bucket of water
 wrench
 holy wrench
 sluglings
 karamthulhu
-karamthulhu
 fever spider body
 unsanitary swill
-slayer gloves
 rusty scimitar
 zombie head
 noted empty fishbowl
@@ -6002,11 +5065,8 @@ berserker ring
 noted berserker ring
 dragon axe
 noted dragon axe
-broken axe
-noted broken axe
 dragon axe head
 noted dragon axe head
-silverlight
 darklight
 demonic sigil mould
 demonic sigil
@@ -6016,8 +5076,6 @@ noted black desert shirt
 black desert robe
 noted black desert robe
 enchanted key
-journal
-letter
 scroll
 chest
 guthix mjolnir
@@ -6027,7 +5085,6 @@ noted saradomin mjolnir
 zamorak mjolnir
 noted zamorak mjolnir
 cat antipoison
-book
 poisoned cheese
 music scroll
 directions
@@ -6035,11 +5092,7 @@ pot of weeds
 smouldering pot
 rat pole
 menaphite thug
-bandit
-statuette
 robe of elidinis
-robe of elidinis
-torn robe
 torn robe
 shoes
 sole
@@ -6047,8 +5100,6 @@ ancestral key
 ballad
 choc-ice
 noted choc-ice
-lamp
-watering can
 earth warrior champion scroll
 ghoul champion scroll
 giant champion scroll
@@ -6070,41 +5121,13 @@ noted fur
 noted wyvern bones
 slender blade
 bow-sword
-large pouch
 relic
 orb
 star bauble
-star bauble
-star bauble
-star bauble
-star bauble
-star bauble
-box bauble
-box bauble
-box bauble
-box bauble
-box bauble
 box bauble
 diamond bauble
-diamond bauble
-diamond bauble
-diamond bauble
-diamond bauble
-diamond bauble
-tree bauble
-tree bauble
-tree bauble
-tree bauble
-tree bauble
 tree bauble
 bell bauble
-bell bauble
-bell bauble
-bell bauble
-bell bauble
-bell bauble
-puppet box
-bauble box
 puppet box
 bauble box
 bobble hat
@@ -6119,24 +5142,7 @@ marionette handle
 blue marionette
 green marionette
 red marionette
-blue marionette
-green marionette
-red marionette
-red marionette
-red marionette
-red marionette
-red marionette
-blue marionette
-blue marionette
-blue marionette
-blue marionette
-green marionette
-green marionette
-green marionette
-green marionette
 peach
-progress hat
-progress hat
 progress hat
 mage's book
 noted mage's book
@@ -6146,10 +5152,6 @@ cylinder
 cube
 icosahedron
 pentamid
-orb
-animals' bones
-animals' bones
-animals' bones
 animals' bones
 beginner wand
 noted beginner wand
@@ -6190,7 +5192,6 @@ baguette
 triangle sandwich
 roll
 square sandwich
-prison key
 noted triangle sandwich
 pyramid top
 sandstone (1kg)
@@ -6212,9 +5213,6 @@ sandstone (32kg)
 sandstone body
 sandstone base
 stone head
-stone head
-stone head
-stone head
 z sigil
 m sigil
 r sigil
@@ -6224,7 +5222,6 @@ stone right arm
 stone left leg
 stone right leg
 camel mould (p)
-stone head
 camel mask
 swarm
 unlit bug lantern
@@ -6264,8 +5261,6 @@ fried onions
 noted fried onions
 chopped tuna
 noted chopped tuna
-sweetcorn
-noted sweetcorn
 burnt egg
 noted burnt egg
 burnt onion
@@ -6283,27 +5278,8 @@ noted pirate boots
 pirate leggings
 noted pirate leggings
 canister
-cannon ball
 ramrod
 repair plank
-stripy pirate shirt
-noted stripy pirate shirt
-pirate bandana
-noted pirate bandana
-pirate leggings
-noted pirate leggings
-stripy pirate shirt
-noted stripy pirate shirt
-pirate bandana
-noted pirate bandana
-pirate leggings
-noted pirate leggings
-stripy pirate shirt
-noted stripy pirate shirt
-pirate bandana
-noted pirate bandana
-pirate leggings
-noted pirate leggings
 lucky cutlass
 harry's cutlass
 rapier
@@ -6312,10 +5288,6 @@ book o' piracy
 cannon barrel
 broken cannon
 cannon balls
-tacks
-tacks
-tacks
-tacks
 tacks
 braindeath 'rum'
 dragon 2h sword
@@ -6326,14 +5298,10 @@ pie recipe book
 noted pie recipe book
 part mud pie
 noted part mud pie
-part mud pie
-noted part mud pie
 raw mud pie
 noted raw mud pie
 mud pie
 noted mud pie
-part garden pie
-noted part garden pie
 part garden pie
 noted part garden pie
 raw garden pie
@@ -6344,16 +5312,12 @@ half a garden pie
 noted half a garden pie
 part fish pie
 noted part fish pie
-part fish pie
-noted part fish pie
 raw fish pie
 noted raw fish pie
 fish pie
 noted fish pie
 half a fish pie
 noted half a fish pie
-part admiral pie
-noted part admiral pie
 part admiral pie
 noted part admiral pie
 raw admiral pie
@@ -6364,16 +5328,12 @@ half an admiral pie
 noted half an admiral pie
 part wild pie
 noted part wild pie
-part wild pie
-noted part wild pie
 raw wild pie
 noted raw wild pie
 wild pie
 noted wild pie
 half a wild pie
 noted half a wild pie
-part summer pie
-noted part summer pie
 part summer pie
 noted part summer pie
 raw summer pie
@@ -6388,8 +5348,6 @@ skewered rabbit
 iron spit
 burnt chompy
 noted burnt chompy
-cooked chompy
-noted cooked chompy
 skewered chompy
 noted burnt rabbit
 noted roast rabbit
@@ -6490,7 +5448,6 @@ draynor skull
 magic secateurs
 queen's secateurs
 symptoms list
-bird nest
 paddle
 noted paddle
 mole claw
@@ -6543,15 +5500,12 @@ barrows gloves
 cornflour
 book on chickens
 vanilla pod
-cornflour
 noted cornflour
 pot of cornflour
 noted pot of cornflour
 cornflour mixture
 milky mixture
 cinnamon
-brulee
-brulee
 brulee
 brulee supreme
 evil chicken's egg
@@ -6578,7 +5532,6 @@ dirty blast
 red crab
 asgoldian ale
 dwarven rock cake
-dwarven rock cake
 slop of compromise
 soggy bread
 spicy maggots
@@ -6590,10 +5543,6 @@ giant crab meat
 burnt giant crab meat
 cooked giant crab meat
 noted cooked giant crab meat
-cooked giant crab meat
-cooked giant crab meat
-cooked giant crab meat
-cooked giant crab meat
 ground giant crab meat
 ground cod
 raw fishcake
@@ -6617,7 +5566,6 @@ noted potato seed
 noted onion seed
 noted mithril arrow
 noted tomato seed
-balloon toad
 balloon toad
 raw jubbly
 noted raw jubbly
@@ -6647,31 +5595,6 @@ zombie mask
 zombie gloves
 zombie boots
 item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-item
-bucket of rubble
-noted bucket of rubble
-bucket of rubble
-noted bucket of rubble
 bucket of rubble
 noted bucket of rubble
 plaster fragment
@@ -6683,7 +5606,6 @@ the sleeping seven
 histories of the hallowland
 modern day morytania
 rod dust
-silvthrill rod
 silvthrill rod
 rod of ivandis (10)
 rod of ivandis (9)
@@ -6700,12 +5622,6 @@ silver dust
 noted silver dust
 guthix balance (unf)
 noted guthix balance (unf)
-guthix balance (unf)
-noted guthix balance (unf)
-guthix balance (unf)
-noted guthix balance (unf)
-guthix balance (unf)
-noted guthix balance (unf)
 guthix balance(4)
 noted guthix balance(4)
 guthix balance(3)
@@ -6717,9 +5633,7 @@ noted guthix balance(1)
 gadderhammer
 noted gadderhammer
 boxing gloves
-boxing gloves
 wooden sword
-wooden shield
 treasure stone
 prize key
 pugel
@@ -6747,40 +5661,6 @@ teapot with leaves
 noted teapot with leaves
 teapot
 noted teapot
-pot of tea (4)
-noted pot of tea (4)
-pot of tea (3)
-noted pot of tea (3)
-pot of tea (2)
-noted pot of tea (2)
-pot of tea (1)
-noted pot of tea (1)
-teapot with leaves
-noted teapot with leaves
-teapot
-noted teapot
-pot of tea (4)
-noted pot of tea (4)
-pot of tea (3)
-noted pot of tea (3)
-pot of tea (2)
-noted pot of tea (2)
-pot of tea (1)
-noted pot of tea (1)
-teapot with leaves
-noted teapot with leaves
-teapot
-noted teapot
-empty cup
-noted empty cup
-cup of tea
-cup of tea
-porcelain cup
-cup of tea
-cup of tea
-porcelain cup
-cup of tea
-cup of tea
 tea leaves
 noted tea leaves
 paintbrush
@@ -6799,36 +5679,17 @@ toy mouse (wound)
 noted toy mouse (wound)
 toy cat
 noted toy cat
-branch
-reward token
-reward token
 reward token
 long vine
 short vine
 fishing tome
-fishing tome
-fishing tome
-agility tome
-agility tome
 agility tome
 thieving tome
-thieving tome
-thieving tome
-slayer tome
-slayer tome
 slayer tome
 mining tome
-mining tome
-mining tome
 firemaking tome
-firemaking tome
-firemaking tome
-woodcutting tome
-woodcutting tome
 woodcutting tome
 snail shell
-snake hide
-noted snake hide
 yin yang amulet
 ancient mjolnir
 noted ancient mjolnir
@@ -6840,74 +5701,39 @@ jug of vinegar
 pot of vinegar
 goblin skull
 bone in vinegar
-goblin skull
-bear ribs
 bear ribs
 ram skull
-ram skull
-unicorn bone
 unicorn bone
 giant rat bone
-giant rat bone
-giant bat wing
 giant bat wing
 wolf bone
-wolf bone
-bat wing
 bat wing
 rat bone
-rat bone
-baby dragon bone
 baby dragon bone
 ogre ribs
-ogre ribs
-jogre bone
 jogre bone
 zogre bone
-zogre bone
-mogre bone
 mogre bone
 monkey paw
-monkey paw
-dagannoth ribs
 dagannoth ribs
 snake spine
-snake spine
-zombie bone
 zombie bone
 werewolf bone
-werewolf bone
-moss giant bone
 moss giant bone
 fire giant bone
-fire giant bone
-ice giant ribs
 ice giant ribs
 terrorbird wing
-terrorbird wing
-ghoul bone
 ghoul bone
 troll bone
-troll bone
-seagull wing
 seagull wing
 undead cow ribs
-undead cow ribs
-experiment bone
 experiment bone
 rabbit bone
-rabbit bone
-basilisk bone
 basilisk bone
 desert lizard bone
-desert lizard bone
-cave goblin skull
 cave goblin skull
 big frog leg
-big frog leg
 vulture wing
-vulture wing
-jackal bone
 jackal bone
 ram skull helm
 bonesack
@@ -6915,17 +5741,7 @@ bottle of wine
 noted bottle of wine
 empty wine bottle
 al kharid flyer
-ogre arrow shaft
-ogre arrow shaft
-ogre arrow shaft
-ogre arrow shaft
 easter ring
-easter egg
-easter egg
-easter egg
-easter egg
-easter egg
-easter egg
 field ration
 noted field ration
 pure essence
@@ -6935,7 +5751,6 @@ tortoise shell
 noted tortoise shell
 iron sheet
 fresh monkfish
-fresh monkfish
 raw monkfish
 noted raw monkfish
 monkfish
@@ -6944,29 +5759,19 @@ burnt monkfish
 noted burnt monkfish
 bone seeds
 herman's book
-axe handle
-noted axe handle
 burnt shrimp
 noted burnt shrimp
-casket
-white apron
 mining prop
 heavy box
 empty box
 burnt diary
-burnt diary
-burnt diary
-burnt diary
-burnt diary
 engine
-scroll
 pulley beam
 long pulley beam
 longer pulley beam
 lift manual
 beam
 servant bell
-crawling hand
 cockatrice head
 basilisk head
 kurask head
@@ -7006,7 +5811,6 @@ ardougne teleport
 watchtower teleport
 teleport to house
 bones to bananas
-bones to peaches
 enchant sapphire or opal
 enchant emerald or jade
 enchant ruby or topaz
@@ -7157,7 +5961,6 @@ dartboard
 archery target
 oak prize chest
 teak prize chest
-mahogany chest
 exit portal
 decorative rock
 pond
@@ -7176,7 +5979,6 @@ fern
 dock leaf
 thistle
 reeds
-fern
 bush
 tall plant
 short plant
@@ -7200,11 +6002,9 @@ topiary hedge
 fancy hedge
 tall fancy hedge
 tall box hedge
-rosemary
 daffodils
 bluebells
 sunflower
-marigolds
 roses
 firepit
 firepit with hook
@@ -7231,10 +6031,6 @@ cat basket
 cushioned basket
 beer barrel
 cider barrel
-asgarnian ale
-greenman's ale
-dragon bitter
-chef's delight
 wood kitchen table
 oak kitchen table
 teak kitchen table
@@ -7243,13 +6039,6 @@ teak staircase
 marble staircase
 spiral staircase
 marble spiral
-crawling hand
-cockatrice head
-basilisk head
-kurask head
-abyssal head
-kbd heads
-kq head
 mounted bass
 mounted swordfish
 mounted shark
@@ -7262,12 +6051,6 @@ cw armour 3
 rune case 1
 rune case 2
 rune case 3
-silverlight
-excalibur
-darklight
-anti-dragon shield
-amulet of glory
-cape of legends
 king arthur
 elena
 giant dwarf
@@ -7277,9 +6060,6 @@ the desert
 morytania
 karamja
 isafdar
-small map
-medium map
-large map
 oak cage
 oak and steel cage
 steel cage
@@ -7351,10 +6131,7 @@ oak lever
 teak lever
 mahogany lever
 trapdoor
-trapdoor
-trapdoor
 floor decoration
-steel cage
 lesser magic cage
 greater magic cage
 wooden workbench
@@ -7383,7 +6160,6 @@ dining room
 bedroom
 games room
 combat room
-hall
 hall
 chapel
 workshop
@@ -7417,19 +6193,12 @@ bagged plant 2
 noted bagged plant 2
 bagged plant 3
 noted bagged plant 3
-thorny hedge
 noted thorny hedge
-nice hedge
 noted nice hedge
-small box hedge
 noted small box hedge
-topiary hedge
 noted topiary hedge
-fancy hedge
 noted fancy hedge
-tall fancy hedge
 noted tall fancy hedge
-tall box hedge
 noted tall box hedge
 bagged flower
 noted bagged flower
@@ -7446,317 +6215,104 @@ noted bagged roses
 construction guide
 rune heraldic helm
 dragon bolts (unf)
-rune heraldic helm
-dragon bolts (unf)
-rune heraldic helm
-dragon bolts (unf)
-rune heraldic helm
-dragon bolts (unf)
-rune heraldic helm
 dragon bolts
-rune heraldic helm
-dragon bolts
-rune heraldic helm
-dragon bolts
-rune heraldic helm
-dragon bolts
-rune heraldic helm
 dragon bolts (p)
-rune heraldic helm
-dragon bolts (p)
-rune heraldic helm
-dragon bolts (p)
-rune heraldic helm
-dragon bolts (p)
-rune heraldic helm
-opal dragon bolts
-rune heraldic helm
-opal dragon bolts
-rune heraldic helm
-opal dragon bolts
-rune heraldic helm
 opal dragon bolts
 crude chair
 noted crude chair
-wooden chair
 noted wooden chair
-rocking chair
 noted rocking chair
-oak chair
 noted oak chair
-oak armchair
 noted oak armchair
-teak armchair
 noted teak armchair
-mahogany armchair
 noted mahogany armchair
 bookcase
 noted bookcase
-oak bookcase
 noted oak bookcase
-mahogany bookcase
 noted mahogany bookcase
-beer barrel
 noted beer barrel
-cider barrel
 noted cider barrel
-asgarnian ale
-noted asgarnian ale
-greenman's ale
-noted greenman's ale
-dragon bitter
-noted dragon bitter
-chef's delight
-noted chef's delight
 kitchen table
 noted kitchen table
-oak kitchen table
 noted oak kitchen table
-teak kitchen table
 noted teak kitchen table
-oak lectern
 noted oak lectern
-eagle lectern
 noted eagle lectern
-demon lectern
 noted demon lectern
-teak eagle lectern
 noted teak eagle lectern
-teak demon lectern
 noted teak demon lectern
-mahogany eagle
 noted mahogany eagle
-mahogany demon
 noted mahogany demon
-wood dining table
 noted wood dining table
-oak dining table
 noted oak dining table
-carved oak table
 noted carved oak table
-teak table
 noted teak table
-carved teak table
 noted carved teak table
-mahogany table
 noted mahogany table
-opulent table
 noted opulent table
-wooden bench
 noted wooden bench
-oak bench
 noted oak bench
-carved oak bench
 noted carved oak bench
-teak dining bench
 noted teak dining bench
-carved teak bench
 noted carved teak bench
-mahogany bench
 noted mahogany bench
-gilded bench
 noted gilded bench
-wooden bed
 noted wooden bed
-oak bed
 noted oak bed
-large oak bed
 noted large oak bed
-teak bed
 noted teak bed
-large teak bed
 noted large teak bed
 four-poster bed
 noted four-poster bed
 gilded four-poster
 noted gilded four-poster
-oak clock
 noted oak clock
-teak clock
 noted teak clock
-gilded clock
 noted gilded clock
-shaving stand
 noted shaving stand
-oak shaving stand
 noted oak shaving stand
-oak dresser
 noted oak dresser
-teak dresser
 noted teak dresser
-fancy teak dresser
 noted fancy teak dresser
-mahogany dresser
 noted mahogany dresser
-gilded dresser
 noted gilded dresser
-shoe box
 noted shoe box
-oak drawers
 noted oak drawers
-oak wardrobe
 noted oak wardrobe
-teak drawers
 noted teak drawers
-teak wardrobe
 noted teak wardrobe
-mahogany wardrobe
 noted mahogany wardrobe
-gilded wardrobe
 noted gilded wardrobe
-crystal ball
 noted crystal ball
-elemental sphere
 noted elemental sphere
-crystal of power
 noted crystal of power
-globe
 noted globe
-ornamental globe
 noted ornamental globe
-lunar globe
 noted lunar globe
-celestial globe
 noted celestial globe
-armillary sphere
 noted armillary sphere
-small orrery
 noted small orrery
-large orrery
 noted large orrery
-oak telescope
 noted oak telescope
-teak telescope
 noted teak telescope
-mahogany telescope
 noted mahogany telescope
 banner
 jade dragon bolts
-banner
-jade dragon bolts
-banner
-jade dragon bolts
-banner
-jade dragon bolts
-banner
 pearl dragon bolts
-banner
-pearl dragon bolts
-banner
-pearl dragon bolts
-banner
-pearl dragon bolts
-banner
 topaz dragon bolts
-banner
-topaz dragon bolts
-banner
-topaz dragon bolts
-banner
-topaz dragon bolts
-banner
-sapphire dragon bolts
-banner
-sapphire dragon bolts
-banner
-sapphire dragon bolts
-banner
 sapphire dragon bolts
 steel heraldic helm
 emerald dragon bolts
-steel heraldic helm
-emerald dragon bolts
-steel heraldic helm
-emerald dragon bolts
-steel heraldic helm
-emerald dragon bolts
-steel heraldic helm
 ruby dragon bolts
-steel heraldic helm
-ruby dragon bolts
-steel heraldic helm
-ruby dragon bolts
-steel heraldic helm
-ruby dragon bolts
-steel heraldic helm
 diamond dragon bolts
-steel heraldic helm
-diamond dragon bolts
-steel heraldic helm
-diamond dragon bolts
-steel heraldic helm
-diamond dragon bolts
-steel heraldic helm
 dragonstone dragon bolts
-steel heraldic helm
-dragonstone dragon bolts
-steel heraldic helm
-dragonstone dragon bolts
-steel heraldic helm
-dragonstone dragon bolts
-rune kiteshield
 onyx dragon bolts
-rune kiteshield
-onyx dragon bolts
-rune kiteshield
-onyx dragon bolts
-rune kiteshield
-onyx dragon bolts
-rune kiteshield
 opal dragon bolts (e)
-rune kiteshield
-opal dragon bolts (e)
-rune kiteshield
-opal dragon bolts (e)
-rune kiteshield
-opal dragon bolts (e)
-rune kiteshield
 jade dragon bolts (e)
-rune kiteshield
-jade dragon bolts (e)
-rune kiteshield
-jade dragon bolts (e)
-rune kiteshield
-jade dragon bolts (e)
-rune kiteshield
 pearl dragon bolts (e)
-rune kiteshield
-pearl dragon bolts (e)
-rune kiteshield
-pearl dragon bolts (e)
-rune kiteshield
-pearl dragon bolts (e)
-steel kiteshield
 topaz dragon bolts (e)
-steel kiteshield
-topaz dragon bolts (e)
-steel kiteshield
-topaz dragon bolts (e)
-steel kiteshield
-topaz dragon bolts (e)
-steel kiteshield
 sapphire dragon bolts (e)
-steel kiteshield
-sapphire dragon bolts (e)
-steel kiteshield
-sapphire dragon bolts (e)
-steel kiteshield
-sapphire dragon bolts (e)
-steel kiteshield
 emerald dragon bolts (e)
-steel kiteshield
-emerald dragon bolts (e)
-steel kiteshield
-emerald dragon bolts (e)
-steel kiteshield
-emerald dragon bolts (e)
-steel kiteshield
-ruby dragon bolts (e)
-steel kiteshield
-ruby dragon bolts (e)
-steel kiteshield
-ruby dragon bolts (e)
-steel kiteshield
 ruby dragon bolts (e)
 oak plank
 noted oak plank
@@ -7764,11 +6320,9 @@ teak plank
 noted teak plank
 mahogany plank
 noted mahogany plank
-gold leaf
 noted gold leaf
 marble block
 noted marble block
-magic stone
 noted magic stone
 bolt of cloth
 noted bolt of cloth
@@ -7791,10 +6345,6 @@ mithril defender
 adamant defender
 rune defender
 warrior guild token
-warrior guild token
-warrior guild token
-warrior guild token
-warrior guild token
 defensive shield
 shot
 18lb shot
@@ -7806,9 +6356,7 @@ four barrels
 five barrels
 ground ashes
 steel key
-bronze key
 silver key
-iron key
 zanik
 crate with zanik
 bone dagger
@@ -7821,10 +6369,6 @@ bone dagger (p++)
 noted bone dagger (p++)
 dorgeshuun crossbow
 noted dorgeshuun crossbow
-bone bolts
-bone bolts
-bone bolts
-bone bolts
 bone bolts
 zanik (ham)
 zanik (showdown)
@@ -7864,16 +6408,9 @@ lumber patch
 noted lumber patch
 scrapey tree logs
 noted scrapey tree logs
-blue flowers
-noted blue flowers
-red flowers
-noted red flowers
 rum
-rum
-monkey
 blue monkey
 red monkey
-pirate bandana
 pirate hat
 pieces of eight
 blue naval shirt
@@ -7907,10 +6444,6 @@ bridge section
 noted bridge section
 sweetgrubs
 noted sweetgrubs
-pieces of eight
-pieces of eight
-bucket
-torch
 the stuff
 brewin' guide
 blue navy slacks
@@ -7975,7 +6508,6 @@ green goblin mail
 purple goblin mail
 pink goblin mail
 emerald lantern
-emerald lantern
 emerald lens
 dream log
 moonclan helm
@@ -7996,7 +6528,6 @@ ground tooth
 seal of passage
 lunar staff
 empty vial
-vial of water
 waking sleep vial
 guam vial
 marr vial
@@ -8024,34 +6555,6 @@ mithril bolts
 adamant bolts
 runite bolts
 silver bolts
-blurite bolts
-blurite bolts
-blurite bolts
-blurite bolts
-iron bolts
-iron bolts
-iron bolts
-iron bolts
-steel bolts
-steel bolts
-steel bolts
-steel bolts
-mithril bolts
-mithril bolts
-mithril bolts
-mithril bolts
-adamant bolts
-adamant bolts
-adamant bolts
-adamant bolts
-runite bolts
-runite bolts
-runite bolts
-runite bolts
-silver bolts
-silver bolts
-silver bolts
-silver bolts
 bronze crossbow
 noted bronze crossbow
 blurite crossbow
@@ -8073,42 +6576,6 @@ ruby bolt tips
 diamond bolt tips
 dragonstone bolt tips
 onyx bolt tips
-jade bolt tips
-jade bolt tips
-jade bolt tips
-jade bolt tips
-opal bolt tips
-opal bolt tips
-opal bolt tips
-opal bolt tips
-topaz bolt tips
-topaz bolt tips
-topaz bolt tips
-topaz bolt tips
-sapphire bolt tips
-sapphire bolt tips
-sapphire bolt tips
-sapphire bolt tips
-emerald bolt tips
-emerald bolt tips
-emerald bolt tips
-emerald bolt tips
-ruby bolt tips
-ruby bolt tips
-ruby bolt tips
-ruby bolt tips
-diamond bolt tips
-diamond bolt tips
-diamond bolt tips
-diamond bolt tips
-dragonstone bolt tips
-dragonstone bolt tips
-dragonstone bolt tips
-dragonstone bolt tips
-onyx bolt tips
-onyx bolt tips
-onyx bolt tips
-onyx bolt tips
 opal bolts (e)
 jade bolts (e)
 pearl bolts (e)
@@ -8118,46 +6585,6 @@ emerald bolts (e)
 ruby bolts (e)
 diamond bolts (e)
 dragonstone bolts (e)
-onyx bolts (e)
-opal bolts (e)
-opal bolts (e)
-opal bolts (e)
-opal bolts (e)
-pearl bolts (e)
-pearl bolts (e)
-pearl bolts (e)
-pearl bolts (e)
-jade bolts (e)
-jade bolts (e)
-jade bolts (e)
-jade bolts (e)
-topaz bolts (e)
-topaz bolts (e)
-topaz bolts (e)
-topaz bolts (e)
-sapphire bolts (e)
-sapphire bolts (e)
-sapphire bolts (e)
-sapphire bolts (e)
-emerald bolts (e)
-emerald bolts (e)
-emerald bolts (e)
-emerald bolts (e)
-ruby bolts (e)
-ruby bolts (e)
-ruby bolts (e)
-ruby bolts (e)
-diamond bolts (e)
-diamond bolts (e)
-diamond bolts (e)
-diamond bolts (e)
-dragonstone bolts (e)
-dragonstone bolts (e)
-dragonstone bolts (e)
-dragonstone bolts (e)
-onyx bolts (e)
-onyx bolts (e)
-onyx bolts (e)
 onyx bolts (e)
 blurite bolts (p)
 iron bolts (p)
@@ -8180,34 +6607,6 @@ mithril bolts (p++)
 adamant bolts (p++)
 runite bolts (p++)
 silver bolts (p++)
-blurite bolts (p)
-blurite bolts (p)
-blurite bolts (p)
-blurite bolts (p)
-iron bolts (p)
-iron bolts (p)
-iron bolts (p)
-iron bolts (p)
-steel bolts (p)
-steel bolts (p)
-steel bolts (p)
-steel bolts (p)
-mithril bolts (p)
-mithril bolts (p)
-mithril bolts (p)
-mithril bolts (p)
-adamant bolts (p)
-adamant bolts (p)
-adamant bolts (p)
-adamant bolts (p)
-runite bolts (p)
-runite bolts (p)
-runite bolts (p)
-runite bolts (p)
-silver bolts (p)
-silver bolts (p)
-silver bolts (p)
-silver bolts (p)
 jade bolts
 topaz bolts
 sapphire bolts
@@ -8216,38 +6615,6 @@ ruby bolts
 diamond bolts
 dragonstone bolts
 onyx bolts
-jade bolts
-jade bolts
-jade bolts
-jade bolts
-topaz bolts
-topaz bolts
-topaz bolts
-topaz bolts
-sapphire bolts
-sapphire bolts
-sapphire bolts
-sapphire bolts
-emerald bolts
-emerald bolts
-emerald bolts
-emerald bolts
-ruby bolts
-ruby bolts
-ruby bolts
-ruby bolts
-diamond bolts
-diamond bolts
-diamond bolts
-diamond bolts
-dragonstone bolts
-dragonstone bolts
-dragonstone bolts
-dragonstone bolts
-onyx bolts
-onyx bolts
-onyx bolts
-onyx bolts
 bronze bolts (unf)
 blurite bolts (unf)
 iron bolts (unf)
@@ -8255,43 +6622,10 @@ steel bolts (unf)
 mithril bolts (unf)
 adamant bolts(unf)
 runite bolts (unf)
-silver bolts (unf)
-bronze bolts (unf)
-bronze bolts (unf)
-bronze bolts (unf)
-bronze bolts (unf)
-blurite bolts (unf)
-blurite bolts (unf)
-blurite bolts (unf)
-blurite bolts (unf)
-iron bolts (unf)
-iron bolts (unf)
-iron bolts (unf)
-iron bolts (unf)
-steel bolts (unf)
-steel bolts (unf)
-steel bolts (unf)
-steel bolts (unf)
-mithril bolts (unf)
-mithril bolts (unf)
-mithril bolts (unf)
-mithril bolts (unf)
-adamant bolts(unf)
-adamant bolts(unf)
-adamant bolts(unf)
-adamant bolts(unf)
-runite bolts (unf)
-runite bolts (unf)
-runite bolts (unf)
-runite bolts (unf)
-silver bolts (unf)
-silver bolts (unf)
-silver bolts (unf)
 silver bolts (unf)
 grapple
 mith grapple tip
 noted mith grapple tip
-mith grapple
 mith grapple
 bronze limbs
 noted bronze limbs
@@ -8347,20 +6681,14 @@ gnome scarf
 noted gnome scarf
 gnome goggles
 noted gnome goggles
-reward token
 mint cake
 noted mint cake
 aluft aloft box
 half made batta
-unfinished batta
-cocktail glass
-batta tin
-noted batta tin
 noted batta tin
 tangled toads' legs
 noted tangled toads' legs
 half made bowl
-unfinished bowl
 noted cocktail shaker
 mixed blizzard
 mixed sgg
@@ -8368,14 +6696,8 @@ mixed blast
 mixed punch
 mixed special
 mixed saturday
-mixed saturday
-mixed saturday
-mixed dragon
-mixed dragon
 mixed dragon
 half made crunchy
-unfinished crunchy
-unfinished crunchy
 noted crunchy tray
 noted gnomebowl mould
 noted raw crunchies
@@ -8419,7 +6741,6 @@ a handwritten book
 tyras helm
 noted tyras helm
 daeyalt ore
-message
 vyrewatch top
 noted vyrewatch top
 vyrewatch legs
@@ -8435,20 +6756,15 @@ noted citizen shoes
 castle sketch 1
 castle sketch 2
 castle sketch 3
-message
 blood tithe pouch
 large ornate key
 haemalchemy volume 1
 sealed message
-door key
 ladder top
 tome of experience (3)
 tome of experience (2)
 tome of experience (1)
-bucket of water
-bucket
 useless key
-torch
 proselyte harness m
 noted proselyte harness m
 initiate harness m
@@ -8474,33 +6790,20 @@ fragment 1
 fragment 2
 fragment 3
 blank water rune
-water rune
 blank air rune
-air rune
 blank earth rune
-earth rune
 blank mind rune
-mind rune
 blank fire rune
-fire rune
 noted torch
-stick
 training sword
 training shield
 training bow
 training arrows
-training arrows
-training arrows
-training arrows
-training arrows
 slashed book
-rock
 beaten book
 crane schematic
 lever schematic
 crane claw
-scroll
-key
 pipe
 large cog
 medium cog
@@ -8594,7 +6897,6 @@ farming hood
 quest point cape
 quest point hood
 spirit flakes
-spirit flakes
 oak cape rack
 teak cape rack
 mahogany cape rack
@@ -8607,12 +6909,8 @@ mahogany costume box
 oak armour case
 teak armour case
 mahogany armour case
-oak wardrobe
 carved oak wardrobe
-teak wardrobe
 carved teak wardrobe
-mahogany wardrobe
-gilded wardrobe
 marble wardrobe
 oak toy box
 teak toy box
@@ -8621,15 +6919,7 @@ oak treasure chest
 teak treasure chest
 mahogany treasure chest
 costume room
-oak cape rack
-teak cape rack
-mahogany cape rack
-gilded cape rack
-marble cape rack
 magic cape rack
-oak toy box
-teak toy box
-mahogany toy box
 oak magic wardrobe
 carved oak magic wardrobe
 teak magic wardrobe
@@ -8637,11 +6927,6 @@ carved teak magic wardrobe
 mahogany magic wardrobe
 gilded magic wardrobe
 marble magic wardrobe
-oak armour case
-teak armour case
-mahogany armour case
-oak treasure chest
-teak treasure chest
 m. treasure chest
 oak fancy dress box
 teak fancy dress box
@@ -8675,12 +6960,6 @@ goutweedy lump
 hardy gout tubers
 farming manual
 sailing book
-ghost buster 500
-ghost buster 500
-ghost buster 500
-ghost buster 500
-ghost buster 500
-ghost buster 500
 ghost buster 500
 white destabiliser
 red destabiliser
@@ -8717,23 +6996,11 @@ hunter hood
 footprint
 imp
 kebbit
-kebbit
-kebbit
-kebbit
-kebbit
-kebbit
-kebbit
-kebbit
-kebbit
-kebbit
 crimson swift
 copper longtail
 cerulean twitch
 golden warbler
 tropical wagtail
-butterfly
-butterfly
-butterfly
 butterfly
 giant eagle
 rabbit
@@ -8910,17 +7177,11 @@ noted orange salamander
 noted red salamander
 noted black salamander
 noted swamp lizard
-spirit flakes
-spirit flakes
-eagle feather
-eagle feather
-eagle feather
 eagle feather
 eagle cape
 fake beak
 bird book
 metal feather
-golden feather
 silver feather
 bronze feather
 odd bird seed
@@ -9091,11 +7352,9 @@ guthix crozier
 noted guthix crozier
 zamorak crozier
 noted zamorak crozier
-saradomin cloak
 noted saradomin cloak
 guthix cloak
 noted guthix cloak
-zamorak cloak
 noted zamorak cloak
 saradomin mitre
 noted saradomin mitre
@@ -9121,22 +7380,11 @@ guthix stole
 noted guthix stole
 zamorak stole
 noted zamorak stole
-purple sweets
-purple sweets
-purple sweets
-purple sweets
-purple sweets
-purple sweets
-purple sweets
-purple sweets
-scroll
-empty sack
 undead chicken
 selected iron
 bar magnet
 undead twigs
 blessed axe
-research notes
 translated notes
 a pattern
 a container
@@ -9146,10 +7394,6 @@ ava's attractor
 ava's accumulator
 crone-made amulet
 snowball
-snowball
-snowball
-snowball
-snowball
 gublinch shards
 reindeer hat
 wintumber tree
@@ -9158,10 +7402,6 @@ crackers
 tofu
 worms
 attacker horn
-collection bag
-collection bag
-collection bag
-collection bag
 collection bag
 healer horn
 green egg
@@ -9193,21 +7433,11 @@ collector icon
 defender icon
 healer icon
 collector horn
-spikes
 queen help book
 no eggs
 granite body
 noted granite body
 minnow
-minnow
-minnow
-minnow
-noxifer seed
-golpar seed
-noxifer seed
-golpar seed
-noxifer seed
-golpar seed
 noxifer seed
 golpar seed
 keris
@@ -9226,13 +7456,7 @@ cowbells
 clockwork book
 clockwork suit
 mission report
-mission report
-mission report
 kgp id card
-spirit flakes
-spirit flakes
-spirit flakes
-spirit flakes
 arctic pyre logs
 noted arctic pyre logs
 arctic pine logs
@@ -9247,8 +7471,6 @@ yak-hide
 noted yak-hide
 cured yak-hide
 noted cured yak-hide
-yak-hide armour
-noted yak-hide armour
 yak-hide armour
 noted yak-hide armour
 neitiznot shield
@@ -9267,7 +7489,6 @@ silly jester tights
 silly jester boots
 a jester stick
 apricot cream pie
-decapitated head
 noted helm of neitiznot
 spring sq'irk
 summer sq'irk
@@ -9290,11 +7511,7 @@ builder's shirt
 builder's trousers
 builder's boots
 rivets
-rivets
-rivets
-rivets
 binding fluid
-pipe
 pipe ring
 metal sheet
 coloured ball
@@ -9309,9 +7526,7 @@ rune satchel
 keg
 prayer book
 barrelchest anchor
-barrelchest anchor
 blessed lamp
-prayer book
 wooden cat
 noted wooden cat
 cranial clamp
@@ -9320,14 +7535,6 @@ bell jar
 wolf whistle
 shipping order
 crate part
-crate part
-crate part
-crate part
-crate part
-skull staple
-skull staple
-skull staple
-skull staple
 skull staple
 mixture - step 1(4)
 noted mixture - step 1(4)
@@ -9359,9 +7566,6 @@ noted nail beast nails
 lumberjack top
 lumberjack legs
 lumberjack hat
-reward token
-reward token
-reward token
 pushup
 run
 situp
@@ -9399,16 +7603,8 @@ empty light orb
 cave goblin wire
 noted cave goblin wire
 cog
-cog
-fuse
-fuse
-meter
 meter
 capacitor
-capacitor
-lever
-lever
-powerbox
 powerbox
 perfect shell
 perfect snail shell
@@ -9418,8 +7614,6 @@ goblin book
 noted goblin book
 dagon'hai history
 sin'keth's diary
-an empty folder
-an empty folder
 an empty folder
 used folder
 full folder
@@ -9438,37 +7632,22 @@ magic egg
 rabbit mould
 chocolate chunks
 chocolate kebbit
-easter egg
-easter egg
-easter egg
 damp planks
 crude carving
 cruder carving
 sven's last map
 windswept logs
-parchment
 brine sabre
 noted brine sabre
-key
-key
-key
-key
-key
 rotten barrel
-rope
 brine rat
 armour shard
 artefact
 axe head
-artefact
 helmet fragment
-artefact
 shield fragment
-artefact
 sword fragment
-artefact
 mace
-artefact
 goblin village sphere
 ancient mace
 zanik (slice)
@@ -9534,7 +7713,6 @@ berserker necklace
 noted berserker necklace
 onyx bracelet
 noted onyx bracelet
-onyx bracelet
 regen bracelet
 noted regen bracelet
 karamja gloves 1
@@ -9549,17 +7727,8 @@ astral rune shards
 dreamy lamp
 cyrisus's chest
 hunter kit
-flighted ogre arrow
-flighted ogre arrow
-flighted ogre arrow
-flighted ogre arrow
-phoenix crossbow
-noted phoenix crossbow
-phoenix crossbow
-noted phoenix crossbow
 newspaper
 noted newspaper
-half certificate
 half certificate
 uncleaned find
 arrowheads
@@ -9587,26 +7756,10 @@ shrinking recipe
 to-do list
 shrink-me-quick
 shrunk ogleroot
-shrunk ogleroot
-shrunk ogleroot
-shrunk ogleroot
-shrunk ogleroot
 golden goblin
 magic beans
 dragon arrow
-dragon arrow
-dragon arrow
-dragon arrow
-dragon arrow
 dragon fire arrow
-dragon fire arrow
-dragon fire arrow
-dragon fire arrow
-dragon fire arrow
-dragon fire arrow (lit)
-dragon fire arrow (lit)
-dragon fire arrow (lit)
-dragon fire arrow (lit)
 dragon fire arrow (lit)
 dragon arrow(p)
 dragon arrow(p+)
@@ -9648,20 +7801,13 @@ noted imp repellent
 anchovy oil
 noted anchovy oil
 anchovy paste
-dummy
-dummy
-dummy
-noted dummy
-dummy
 noted dummy
 impling scroll
-noted mith grapple
 noted mith grapple
 elvarg's head
 cavalier mask
 noted cavalier mask
 beret mask
-dragonfire shield
 dragonfire shield
 noted dragonfire shield
 draconic visage
@@ -9684,7 +7830,6 @@ mangled bones
 chewed bones
 my notes
 barbarian skills
-ancient page
 ancient page
 bronze hasta
 noted bronze hasta
@@ -9740,7 +7885,6 @@ rune hasta(p+)
 noted rune hasta(p+)
 rune hasta(p++)
 noted rune hasta(p++)
-fish vial
 fish vial
 attack mix(2)
 noted attack mix(2)
@@ -9838,10 +7982,8 @@ zamorak mix(2)
 noted zamorak mix(2)
 zamorak mix(1)
 noted zamorak mix(1)
-feather
 mausoleum bridge repair
 water pump
-cooking pot
 pottery wheel
 loom
 pottery oven
@@ -9881,7 +8023,6 @@ black knight helm
 address form
 scrap paper
 hair clip
-beach boxing gloves
 beach boxing gloves
 cursed goblin hammer
 cursed goblin bow
@@ -10040,9 +8181,6 @@ slayer ring (4)
 slayer ring (3)
 slayer ring (2)
 slayer ring (1)
-broad arrowheads
-broad bolts
-unfinished broad bolts
 empty vial pack
 noted empty vial pack
 water-filled vial pack
@@ -10057,15 +8195,6 @@ unfinished broad bolt pack
 noted unfinished broad bolt pack
 zamorakian hasta
 noted zamorakian hasta
-decorative armour
-decorative armour
-decorative armour
-decorative armour
-decorative armour
-decorative armour
-decorative armour
-decorative armour
-decorative armour
 leaf-bladed sword
 noted leaf-bladed sword
 entomologist's diary
@@ -10078,7 +8207,6 @@ chocolate strawberry
 noted chocolate strawberry
 box of chocolate strawberries
 noted box of chocolate strawberries
-slice of birthday cake
 slice of birthday cake
 birthday present
 cow mask
@@ -10155,7 +8283,6 @@ fedora
 noted fedora
 lava scale
 noted lava scale
-lava scale shard
 pet chaos elemental
 holiday tool
 easter
@@ -10544,11 +8671,8 @@ tyrannical ring
 noted tyrannical ring
 treasonous ring
 noted treasonous ring
-damaged book
 book of war
-damaged book
 book of law
-damaged book
 book of darkness
 bandos page 1
 bandos page 2
@@ -10577,7 +8701,6 @@ noted stamina mix(1)
 saradomin halo
 zamorak halo
 guthix halo
-amylase crystal
 amylase pack
 lumberyard teleport
 pet dagannoth supreme
@@ -10591,11 +8714,9 @@ pet general graardor
 pet zilyana
 pet k'ril tsutsaroth
 prince black dragon
-kalphite princess
 pet kraken
 junk
 iban's staff (u)
-clan wars cape
 clan wars cape
 tyrannical ring (i)
 treasonous ring (i)
@@ -10631,7 +8752,6 @@ pet list
 oak feeder
 teak feeder
 mahogany feeder
-menagerie
 menagerie
 goblin paint cannon
 air rune pack
@@ -10670,10 +8790,6 @@ yellow dark bow paint
 noted yellow dark bow paint
 white dark bow paint
 noted white dark bow paint
-dark bow
-dark bow
-dark bow
-dark bow
 frozen whip mix
 noted frozen whip mix
 volcanic whip mix
@@ -10700,9 +8816,6 @@ rune pouch
 nest box (empty)
 nest box (seeds)
 nest box (ring)
-steam battlestaff
-mystic steam staff
-dragon pickaxe
 steam staff upgrade kit
 noted steam staff upgrade kit
 dragon pickaxe upgrade kit
@@ -10711,8 +8824,6 @@ ward upgrade kit
 noted ward upgrade kit
 saradomin's tear
 noted saradomin's tear
-malediction ward
-odium ward
 sara's blessed sword (full)
 saradomin's blessed sword
 ironman helm
@@ -10746,14 +8857,12 @@ grim robe
 will and testament
 human bones
 servant's skull
-hourglass
 scythe sharpener
 human eye
 voice potion
 grim reaper hood
 target teleport scroll
 noted target teleport scroll
-granite maul
 granite clamp
 noted granite clamp
 amulet of the damned (full)
@@ -10838,13 +8947,10 @@ noted serpentine helm (uncharged)
 serpentine helm
 magic fang
 noted magic fang
-zulrah's scales
 ohn's diary
 jar of swamp
 noted jar of swamp
 zul-andra teleport
-pet snakeling
-pet snakeling
 noted oak sapling
 noted willow sapling
 noted maple sapling
@@ -11044,10 +9150,6 @@ western banner 1
 western banner 2
 western banner 3
 western banner 4
-antique lamp
-antique lamp
-antique lamp
-antique lamp
 holy book page set
 noted holy book page set
 unholy book page set
@@ -11079,7 +9181,6 @@ noted halloween mask set
 venenatis spiderling
 callisto cub
 vet'ion jr.
-vet'ion jr.
 scorpia's offspring
 bunny feet
 empty blaster
@@ -11088,7 +9189,6 @@ easter blaster
 volatile mineral
 package
 diango's claws
-old school bond
 old school bond
 old school bond (untradeable)
 bone bolt pack
@@ -11102,13 +9202,11 @@ tanzanite mutagen
 magma mutagen
 ring of the gods (i)
 mask of balance
-platinum token
 rotten egg
 tiger toy
 lion toy
 snow leopard toy
 amur leopard toy
-amethyst javelin tips
 music cape
 music cape(t)
 music hood
@@ -11177,24 +9275,12 @@ gravedigger gloves
 anti-panties
 bank key
 blood money
-blood money
-blood money
-blood money
-blood money
-blood money
-blood money
-blood money
-blood money
-blood money
 deadman's chest
 deadman's legs
 deadman's cape
 heron
 rock golem
 beaver
-baby chinchompa
-baby chinchompa
-baby chinchompa
 baby chinchompa
 rotten onion
 green banner
@@ -11212,7 +9298,6 @@ sacred eel
 black santa hat
 inverted santa hat
 anti-present
-present
 vial of tears (empty)
 vial of tears (1)
 vial of tears (2)
@@ -11358,15 +9443,6 @@ ensouled dragon head
 noted ensouled dragon head
 book of arcane knowledge
 dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
-dark manuscript
 rada's census
 ricktor's diary (7)
 eathram & rada extract
@@ -11420,44 +9496,11 @@ noted dynamite
 blasted ore
 dragon warhammer
 noted dragon warhammer
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 seed box
-farmer's boro trousers
 farmer's boro trousers
 farmer's jacket
 farmer's shirt
 farmer's boots
-farmer's boots
-farmer's strawhat
 farmer's strawhat
 clue bottle (easy)
 clue bottle (medium)
@@ -11465,8 +9508,6 @@ clue bottle (hard)
 clue bottle (elite)
 dragon claws
 gnome child hat
-present
-grape seed
 teleport card
 noted teleport card
 chronicle
@@ -11474,12 +9515,6 @@ bunny top
 bunny legs
 bunny paws
 deadman teleport tablet
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 cabbage cape
 cabbage rune
 cruciferous codex
@@ -11511,13 +9546,9 @@ zenyte
 noted zenyte
 uncut zenyte
 noted uncut zenyte
-glistening tear
-bullet arrow
 zenyte amulet (u)
 noted zenyte amulet (u)
-dragonstone dragon bolts (e)
 mysterious note
-scrawled note
 translated note
 book of spyology
 brush
@@ -11543,24 +9574,13 @@ ring of suffering
 noted ring of suffering
 amulet of torture
 noted amulet of torture
-monkey
 nieve
-elysian spirit shield
 charged onyx
 deconstructed onyx
 royal seed pod
-bronze key
 combat scarred key
 combat scratched key
 combat damaged key
-bronze javelin tips
-iron javelin tips
-steel javelin tips
-mithril javelin tips
-adamant javelin tips
-rune javelin tips
-dragon javelin tips
-javelin shaft
 light frame
 noted light frame
 heavy frame
@@ -11652,7 +9672,6 @@ reward casket (master)
 torn clue scroll (part 1)
 torn clue scroll (part 2)
 torn clue scroll (part 3)
-zombie head
 noted zombie head
 cyclops head
 noted cyclops head
@@ -11895,8 +9914,6 @@ noted cabbage round shield
 gnomish firelighter
 noted gnomish firelighter
 puzzle box (master)
-puzzle box (master)
-puzzle box (master)
 light box
 clue geode (easy)
 clue geode (medium)
@@ -11946,16 +9963,8 @@ void ranger helm (broken)
 void melee helm (broken)
 decorative sword (broken)
 decorative armour (broken)
-decorative armour (broken)
 decorative helm (broken)
 decorative shield (broken)
-decorative armour (broken)
-decorative armour (broken)
-decorative armour (broken)
-decorative armour (broken)
-decorative armour (broken)
-decorative armour (broken)
-decorative armour (broken)
 fighter hat (broken)
 ranger hat (broken)
 healer hat (broken)
@@ -11970,10 +9979,6 @@ elemental rune pack
 adamant arrow pack
 bloody key
 survival token
-survival token
-survival token
-survival token
-survival token
 stash units (easy)
 stash units (medium)
 stash units (hard)
@@ -11986,7 +9991,6 @@ reward casket (elite)
 reward casket (hard)
 reward casket (medium)
 reward casket (easy)
-amulet of glory
 stale baguette
 noted stale baguette
 bank filler
@@ -11996,7 +10000,6 @@ wooden table
 waxwood bed
 carpet
 wooden stool
-wooden chair
 rune arrow pack
 bloodier key
 fairy enchantment
@@ -12019,7 +10022,6 @@ mounted coins
 cape hanger
 quest list
 tip jar
-spirit tree
 fairy ring
 spirit tree & fairy ring
 topiary bush
@@ -12044,19 +10046,6 @@ ring of suffering (ri)
 giant squirrel
 tangleroot
 rocky
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
-rift guardian
 rift guardian
 phoenix
 bruma root
@@ -12124,7 +10113,6 @@ hardcore ironman helm
 hardcore ironman platebody
 hardcore ironman platelegs
 smelly journal
-kindling
 empty gourd vial
 water-filled gourd vial
 snow globe
@@ -12139,7 +10127,6 @@ noted dragon claws
 dragon thrownaxe
 olmlet
 cave worms
-burnt fish
 raw pysk fish (0)
 pysk fish (0)
 raw suphi fish (1)
@@ -12181,13 +10168,10 @@ houndmaster's diary
 dark journal
 grimy noxifer
 noxifer
-noxifer seed
 grimy golpar
 golpar
-golpar seed
 grimy buchu leaf
 buchu leaf
-buchu seed
 stinkhorn mushroom
 endarkened juice
 cicely
@@ -12267,10 +10251,6 @@ overload (-)(1)
 overload (-)(2)
 overload (-)(3)
 overload (-)(4)
-overload (1)
-overload (2)
-overload (3)
-overload (4)
 overload (+)(1)
 overload (+)(2)
 overload (+)(3)
@@ -12313,12 +10293,6 @@ torn prayer scroll
 noted torn prayer scroll
 ancestral robes set
 noted ancestral robes set
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 arcane prayer scroll
 noted arcane prayer scroll
 opal ring
@@ -12399,19 +10373,6 @@ flamtaer bracelet
 noted flamtaer bracelet
 bracelet of slaughter
 noted bracelet of slaughter
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-rock golem
-lava battlestaff
-mystic lava staff
 lava staff upgrade kit
 noted lava staff upgrade kit
 invitation list
@@ -12493,41 +10454,27 @@ green rainbow strand
 blue rainbow strand
 purple rainbow strand
 rainbow scarf
-amethyst broad bolts
 amethyst javelin
 amethyst javelin(p)
 amethyst javelin(p+)
 amethyst javelin(p++)
-amethyst arrow
 amethyst fire arrow
 amethyst fire arrow (lit)
-amethyst arrow(p)
 amethyst arrow(p+)
 amethyst arrow(p++)
-amethyst bolt tips
-rock golem
 unidentified minerals
 mining gloves
 superior mining gloves
 amethyst
 noted amethyst
 amethyst arrowtips
-amethyst javelin tips
 hand fan
-minnow
-rock golem
-rock golem
-rock golem
 master scroll book (empty)
 noted master scroll book (empty)
 master scroll book
 brutal black dragon
 expert mining gloves
 karambwanji
-wilderness cape
-wilderness cape
-wilderness cape
-wilderness cape
 wilderness cape
 wilderness champion amulet
 champion's cape
@@ -12544,21 +10491,8 @@ noted ultracompost
 teak seed
 mahogany seed
 seaweed spore
-teak seed
-teak seed
-teak seed
-teak seed
-mahogany seed
-mahogany seed
-mahogany seed
-mahogany seed
-seaweed spore
-seaweed spore
-seaweed spore
-seaweed spore
 giant seaweed
 noted giant seaweed
-fossil island wyvern
 fossil island wyvern
 herbi
 herbiboar
@@ -12590,11 +10524,6 @@ small enriched bone
 medium enriched bone
 large enriched bone
 rare enriched bone
-numulite
-numulite
-numulite
-numulite
-numulite
 numulite
 unidentified small fossil
 unidentified medium fossil
@@ -12633,7 +10562,6 @@ noted sulliuscep cap
 archaeologist's diary
 ancient diary
 ancient wyvern shield
-ancient wyvern shield
 noted ancient wyvern shield
 wyvern visage
 noted wyvern visage
@@ -12646,10 +10574,6 @@ noted merfolk trident
 drift net
 noted drift net
 pufferfish
-mermaid's tear
-mermaid's tear
-mermaid's tear
-mermaid's tear
 mermaid's tear
 fossil island note book
 scribbled note
@@ -12684,7 +10608,6 @@ murky potion
 spectral potion
 tomberries
 tattered book
-note
 carved gem
 time bubble
 traiborn note
@@ -12711,7 +10634,6 @@ granite ring (i)
 rock thrownhammer
 varlamore envoy
 royal accord of twill
-certificate
 kharedst's memoirs
 lunch by the lancalliums
 the fisher's flute
@@ -12719,7 +10641,6 @@ history and hearsay
 jewellery of jubilation
 a dark disposition
 secret page
-letter
 imbued saradomin max cape
 imbued saradomin max hood
 imbued zamorak max cape
@@ -12747,25 +10668,9 @@ bracelet of ethereum
 bracelet of ethereum (uncharged)
 noted bracelet of ethereum (uncharged)
 revenant ether
-revenant ether
-revenant ether
-revenant ether
-revenant ether
 field arrow
-field arrow
-field arrow
-blunt arrow
-field arrow
-blunt arrow
-ogre artefact
 shaman mask
 noted shaman mask
-snow imp costume head
-snow imp costume body
-snow imp costume legs
-snow imp costume tail
-snow imp costume gloves
-snow imp costume feet
 snow imp costume head
 snow imp costume body
 snow imp costume legs
@@ -12782,10 +10687,8 @@ santa suit
 santa suit (wet)
 santa suit (dry)
 logs and kindling
-promissory note
 santa's seal
 vault key
-empty sack
 bulging sack
 kristmas kebab
 wrath rune
@@ -12803,10 +10706,8 @@ assembler max cape
 assembler max hood
 dragon crossbow
 noted dragon crossbow
-dragon bolts
 vorkath's stuffed head
 rune dragon
-vorkath's head
 mythical cape
 ava's assembler (broken)
 assembler max cape (broken)
@@ -12814,32 +10715,10 @@ dragon limbs
 noted dragon limbs
 dragon crossbow (u)
 noted dragon crossbow (u)
-dragon bolts (p)
 dragon bolts (p+)
 dragon bolts (p++)
-dragon bolts (unf)
-opal dragon bolts (e)
-jade dragon bolts (e)
-pearl dragon bolts (e)
-topaz dragon bolts (e)
-sapphire dragon bolts (e)
-emerald dragon bolts (e)
-ruby dragon bolts (e)
-diamond dragon bolts (e)
-dragonstone dragon bolts (e)
-onyx dragon bolts (e)
 magic stock
 noted magic stock
-opal dragon bolts
-jade dragon bolts
-pearl dragon bolts
-topaz dragon bolts
-sapphire dragon bolts
-emerald dragon bolts
-ruby dragon bolts
-diamond dragon bolts
-dragonstone dragon bolts
-onyx dragon bolts
 crushed superior dragon bones
 noted crushed superior dragon bones
 super antifire potion(4)
@@ -12850,40 +10729,15 @@ super antifire potion(2)
 noted super antifire potion(2)
 super antifire potion(1)
 noted super antifire potion(1)
-rift guardian
 vorki
 super antifire mix(2)
 noted super antifire mix(2)
 super antifire mix(1)
 noted super antifire mix(1)
 dragonfire ward
-dragonfire ward
 noted dragonfire ward
 skeletal visage
 noted skeletal visage
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
-map piece
 map piece
 aivas' diary
 varrock census records
@@ -12903,9 +10757,6 @@ tristan bust
 aivas bust
 dragon key
 dragon key piece
-dragon key piece
-dragon key piece
-dragon key piece
 ancient key
 water container
 revitalisation potion
@@ -12920,7 +10771,6 @@ noted jar of decay
 ava's assembler
 dragonbone necklace
 noted dragonbone necklace
-mythical cape
 superior dragon bonemeal
 wrath talisman
 noted wrath talisman
@@ -12928,37 +10778,6 @@ wrath tiara
 noted wrath tiara
 superior dragon bones
 noted superior dragon bones
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant kiteshield
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
-adamant heraldic helm
 adamant heraldic helm
 useful rock
 maple bird house
@@ -12971,7 +10790,6 @@ magic bird house
 noted magic bird house
 redwood bird house
 noted redwood bird house
-glistening tear
 extended super antifire(4)
 noted extended super antifire(4)
 extended super antifire(3)
@@ -12984,10 +10802,6 @@ extended super antifire mix(2)
 noted extended super antifire mix(2)
 extended super antifire mix(1)
 noted extended super antifire mix(1)
-bullet arrow
-field arrow
-blunt arrow
-barbed arrow
 dragon boots ornament kit
 noted dragon boots ornament kit
 dragon boots (g)
@@ -13090,8 +10904,6 @@ mysterious crushed meat
 vial of blood
 unfinished blood potion
 blood potion
-unfinished potion
-potion
 old diary
 flaygian's notes
 chain
@@ -13113,7 +10925,6 @@ noted justiciar armour set
 avernic defender (broken)
 cadantine blood potion (unf)
 noted cadantine blood potion (unf)
-vial of blood
 noted vial of blood
 battlemage potion(4)
 noted battlemage potion(4)
@@ -13132,7 +10943,6 @@ noted bastion potion(2)
 bastion potion(1)
 noted bastion potion(1)
 lil' zik
-message
 avernic defender hilt
 noted avernic defender hilt
 sanguinesti staff (uncharged)
@@ -13157,7 +10967,6 @@ verzik vitur - patient record
 dawnbringer
 escape crystal
 coin pouch
-cabbage
 rotten strawberry
 viggora's chainmace (u)
 noted viggora's chainmace (u)
@@ -13170,7 +10979,6 @@ noted thammaron's sceptre (u)
 thammaron's sceptre
 amulet of avarice
 noted amulet of avarice
-looting bag
 old man's coffin
 reduced cadava potion
 goat dung
@@ -13220,7 +11028,6 @@ zuriel's robe bottom
 noted zuriel's robe bottom
 empty bucket pack
 noted empty bucket pack
-pet smoke devil
 kq head (tattered)
 stuffed kq head (tattered)
 scroll sack
@@ -13252,9 +11059,6 @@ dragon hasta(p++)
 noted dragon hasta(p++)
 dragon hasta(kp)
 fake dragon hasta(kp)
-ikkle hydra
-ikkle hydra
-ikkle hydra
 ikkle hydra
 wyrm bonemeal
 drake bonemeal
@@ -13290,13 +11094,7 @@ dragon knife
 dragon knife(p)
 dragon knife(p+)
 dragon knife(p++)
-dragon knife
 cormorant's glove
-cormorant's glove
-molch pearl
-molch pearl
-molch pearl
-molch pearl
 molch pearl
 bluegill
 noted bluegill
@@ -13333,46 +11131,6 @@ attas seed
 iasor seed
 kronos seed
 white lily seed
-white lily seed
-white lily seed
-white lily seed
-white lily seed
-snape grass seed
-snape grass seed
-snape grass seed
-snape grass seed
-potato cactus seed
-potato cactus seed
-potato cactus seed
-potato cactus seed
-dragonfruit tree seed
-dragonfruit tree seed
-dragonfruit tree seed
-dragonfruit tree seed
-celastrus seed
-celastrus seed
-celastrus seed
-celastrus seed
-attas seed
-attas seed
-attas seed
-attas seed
-iasor seed
-iasor seed
-iasor seed
-iasor seed
-kronos seed
-kronos seed
-kronos seed
-kronos seed
-redwood tree seed
-redwood tree seed
-redwood tree seed
-redwood tree seed
-hespori seed
-hespori seed
-hespori seed
-hespori seed
 dragonfruit
 noted dragonfruit
 white lily
@@ -13409,11 +11167,9 @@ noted hydra leather
 bonecrusher necklace
 hydra tail
 noted hydra tail
-stone tablet
 seed pack
 bottomless compost bucket
 noted bottomless compost bucket
-bottomless compost bucket
 bottled dragonbreath (unpowered)
 noted bottled dragonbreath (unpowered)
 bottled dragonbreath
@@ -13445,21 +11201,12 @@ noted mystic boots (dusk)
 jar of chemicals
 noted jar of chemicals
 treasure scroll
-mysterious orb
 ancient casket
-antique lamp
 hydra slayer helmet
 hydra slayer helmet (i)
 alchemical hydra heads
 stuffed hydra heads
 alchemical hydra head
-antique lamp
-brimstone key
-brimstone key
-brimstone key
-brimstone key
-brimstone key
-brimstone key
 brimstone key
 ornate gloves
 ornate boots
@@ -13482,7 +11229,6 @@ noted gilded dragonhide set
 clue nest (beginner)
 clue bottle (beginner)
 clue scroll (beginner)
-strange device
 mimic
 ring of 3rd age
 noted ring of 3rd age
@@ -13580,9 +11326,6 @@ rune scimitar ornament kit (saradomin)
 noted rune scimitar ornament kit (saradomin)
 rune scimitar ornament kit (zamorak)
 noted rune scimitar ornament kit (zamorak)
-rune scimitar
-rune scimitar
-rune scimitar
 3rd age druidic robe top
 noted 3rd age druidic robe top
 3rd age druidic robe bottoms
@@ -13637,16 +11380,11 @@ noted wolf cloak
 climbing boots (g)
 noted climbing boots (g)
 stash units (beginner)
-puzzle box (master)
 clue geode (beginner)
 tormented bracelet (or)
 giant easter egg
 bunnyman mask
 enchanted lyre(i)
-larran's key
-larran's key
-larran's key
-larran's key
 sraracha
 temple coin
 grubby key
@@ -13668,14 +11406,6 @@ jar of eyes
 noted jar of eyes
 sarachnis cudgel
 noted sarachnis cudgel
-super combat potion(4)
-noted super combat potion(4)
-super combat potion(3)
-noted super combat potion(3)
-super combat potion(2)
-noted super combat potion(2)
-super combat potion(1)
-noted super combat potion(1)
 noted barrows gloves
 noted berserker ring (i)
 noted dragon defender
@@ -13689,10 +11419,6 @@ noted rune pouch
 crystal seedling
 crystal seedling (w)
 crystal sapling
-crystal acorn
-crystal acorn
-crystal acorn
-crystal acorn
 crystal acorn
 dragonstone armour set
 noted dragonstone armour set
@@ -13759,16 +11485,7 @@ crystal harpoon (inactive)
 crystal impling jar
 prifddinas teleport
 scrawled notes
-hand mirror
-red crystal
-yellow crystal
-green crystal
-cyan crystal
-blue crystal
-magenta crystal
 black crystal
-green crystal
-fractured crystal
 ardougne knight helm
 ardougne knight platebody
 ardougne knight platelegs
@@ -13780,23 +11497,13 @@ red powder
 ode to eternity
 elder cadantine
 elder cadantine potion (unf)
-crystal
 crystal dust
 inversion potion
 crystal seed
-crystal seed
-orb of light
-clue scroll
-explosive potion
 corrupted sceptre
 corrupted axe
 corrupted pickaxe
 corrupted harpoon
-corrupted shards
-corrupted shards
-corrupted shards
-corrupted shards
-corrupted shards
 corrupted shards
 corrupted dust
 corrupted spike
@@ -13829,17 +11536,12 @@ corrupted teleport crystal
 gauntlet cape
 crystal sceptre
 crystal shards
-crystal dust
 crystal spike
 crystalline bowstring
 crystal orb
-weapon frame
 raw paddlefish
-burnt fish
 paddlefish
-grym leaf
 crystal ore
-phren bark
 water-filled vial
 grym potion (unf)
 egniol potion (1)
@@ -13871,13 +11573,6 @@ imbued tephra
 zalcano shard
 noted zalcano shard
 crystal crown
-crystal crown
-crystal crown
-crystal crown
-crystal crown
-crystal crown
-crystal crown
-crystal crown
 crystal of ithell
 crystal of iorwerth
 crystal of trahaearn
@@ -13899,11 +11594,6 @@ noted crystal armour seed
 enhanced crystal teleport seed
 noted enhanced crystal teleport seed
 crystal shard
-crystal shards
-crystal shards
-crystal shards
-crystal shards
-crystal shards
 crystal helm
 crystal helm (inactive)
 crystal body
@@ -13929,16 +11619,8 @@ elven top
 noted elven top
 elven skirt
 noted elven skirt
-elven top
-noted elven top
-elven skirt
-noted elven skirt
-elven top
-noted elven top
 elven legwear
 noted elven legwear
-elven top
-noted elven top
 memoriam crystal (1)
 memoriam crystal (2)
 memoriam crystal (3)
@@ -13990,16 +11672,8 @@ ancient halo (broken)
 brassica halo (broken)
 decorative sword (l)
 decorative armour (l)
-decorative armour (l)
 decorative helm (l)
 decorative shield (l)
-decorative armour (l)
-decorative armour (l)
-decorative armour (l)
-decorative armour (l)
-decorative armour (l)
-decorative armour (l)
-decorative armour (l)
 saradomin halo (l)
 zamorak halo (l)
 guthix halo (l)
@@ -14040,8 +11714,6 @@ noted swift blade
 ava's assembler (l)
 fire cape (l)
 infernal cape (l)
-granite maul
-granite maul
 ornate maul handle
 noted ornate maul handle
 imbued saradomin max cape (l)
@@ -14100,7 +11772,6 @@ spookier boots
 pumpkin lantern
 skeleton lantern
 bounty crate
-birthday cake
 dagon'hai robes set
 noted dagon'hai robes set
 target teleport
@@ -14138,7 +11809,6 @@ twisted coat (t1)
 twisted trousers (t1)
 twisted boots (t1)
 twisted banner
-death rune
 rune pouch (l)
 inquisitor's mace
 gravestone
@@ -14158,8 +11828,6 @@ festive egg
 festive pot
 festive flour
 gingerbread shield
-iced gingerbread shield
-iced gingerbread shield
 iced gingerbread shield
 scaperune teleport
 bakery storage key
@@ -14196,10 +11864,6 @@ spice rack
 open coal bag
 open gem bag
 open seed box
-phoenix
-phoenix
-phoenix
-phoenix
 inquisitor's armour set
 noted inquisitor's armour set
 little nightmare
@@ -14218,7 +11882,6 @@ eldritch orb
 noted eldritch orb
 victor's cape (1000)
 death's coffer
-gravestone
 cat ears
 hell cat ears
 lamp of the gatherer
@@ -14237,11 +11900,6 @@ carrot
 broken goat horn
 blade of saeldor (c)
 pyromancer set
-tangleroot
-tangleroot
-tangleroot
-tangleroot
-tangleroot
 antique emblem (tier 1)
 antique emblem (tier 2)
 antique emblem (tier 3)
@@ -14307,7 +11965,6 @@ vyre noble shoes
 old note
 journal page
 ancient armour
-tome of experience
 blisterwood logs
 ruby sickle (b)
 enchanted ruby sickle (b)
@@ -14319,11 +11976,6 @@ daeyalt essence
 daeyalt shard
 vampyre
 hallowed crystal shard
-hallowed mark
-hallowed mark
-hallowed mark
-hallowed mark
-hallowed mark
 hallowed mark
 hallowed token
 hallowed grapple
@@ -14338,12 +11990,6 @@ ring of endurance
 strange old lockpick
 strange old lockpick (full)
 noted strange old lockpick (full)
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 strange hallowed tome
 mysterious page
 blood pint
@@ -14357,23 +12003,6 @@ cooked mystery meat
 noted cooked mystery meat
 pat of not garlic butter
 long rope
-severed leg
-vyre noble blazer
-vyre noble coat tails
-vyre noble vest
-vyre noble pants
-vyre noble corset
-vyre noble skirt
-vyre noble dress top
-vyre noble dress bottom
-vyre noble blazer
-vyre noble coat tails
-vyre noble vest
-vyre noble pants
-vyre noble corset
-vyre noble skirt
-vyre noble dress top
-vyre noble dress bottom
 vyre noble blazer
 vyre noble coat tails
 vyre noble vest
@@ -14407,54 +12036,24 @@ carpenter's trousers
 carpenter's boots
 amy's saw
 plank sack
-supply crate
 hosidius blueprints
-wooden table
 oak table
-teak table
-mahogany table
-wooden table
-oak table
-teak table
-mahogany table
-wooden table
-oak table
-teak table
-mahogany table
 wooden cabinet
 oak cabinet
 teak cabinet
 mahogany cabinet
-wooden bookcase
-oak bookcase
 teak bookcase
-mahogany bookcase
 wooden wardrobe
-oak wardrobe
-teak wardrobe
-mahogany wardrobe
 wooden dresser
-oak dresser
-teak dresser
-mahogany dresser
 wooden shelves
 oak shelves
 teak shelves
 mahogany shelves
-wooden bed
-oak bed
-teak bed
-mahogany bed
-wooden bed
-oak bed
-teak bed
 mahogany bed
 wooden drawer
 oak drawer
 teak drawer
 mahogany drawer
-wooden chair
-oak chair
 teak chair
 mahogany chair
 wooden cupboard
@@ -14478,7 +12077,6 @@ catherby teleport
 ice plateau teleport
 headless head
 magical pumpkin
-pumpkin
 brown candy
 blue candy
 white candy
@@ -14531,12 +12129,6 @@ noted trailblazer banner
 infernal harpoon (or)
 infernal pickaxe (or)
 infernal axe (or)
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 trailblazer teleport scroll
 noted trailblazer teleport scroll
 trailblazer tool ornament kit
@@ -14550,7 +12142,6 @@ noted trailblazer graceful ornament kit
 fairy mushroom
 crystal of echoes
 extradimensional bag
-extradimensional bag
 echo axe
 echo pickaxe
 echo harpoon
@@ -14560,10 +12151,6 @@ beekeeper's top
 beekeeper's legs
 beekeeper's gloves
 beekeeper's boots
-bone fragments
-bone fragments
-bone fragments
-bone fragments
 bone fragments
 clay head
 fur head
@@ -14578,29 +12165,20 @@ castlewars brew(2)
 castlewars brew(1)
 decorative boots
 decorative full helm
-decorative boots
-decorative full helm
-decorative boots
 decorative boots (l)
-decorative full helm
 decorative full helm (l)
-blue cape
 soul fragment
 soul wars guide
 potion of power(4)
 potion of power(3)
 potion of power(2)
 potion of power(1)
-red cape
-barricade
-barricade
 blue icon
 red icon
 dark key
 essence pack
 red fireflies
 green fireflies
-stick
 mouldy sawdust
 rotten meat
 stale bread
@@ -14620,7 +12198,6 @@ gnome child mask
 ectoplasmator
 spoils of war
 soul cape
-soul cape
 lil' creator
 lil' destructor
 trophy pedestal
@@ -14633,14 +12210,9 @@ oak outfit stand
 mahogany outfit stand
 league statue
 ornate league statue
-trailblazer rug
 league accomplishments scroll
 league hall
-infernal harpoon (uncharged)
-infernal pickaxe (uncharged)
-infernal axe (uncharged)
 dragon harpoon (or)
-dragon pickaxe (or)
 dragon axe (or)
 trailblazer relic hunter (t1) armour set
 noted trailblazer relic hunter (t1) armour set
@@ -14729,10 +12301,6 @@ noted jar of spirits
 jar of smoke
 noted jar of smoke
 stardust
-stardust
-stardust
-stardust
-stardust
 celestial ring (uncharged)
 celestial ring
 celestial signet (uncharged)
@@ -14745,7 +12313,6 @@ golden prospector boots
 dark flippers
 big harpoonfish
 stuffed big harpoonfish
-mounted harpoonfish
 raw harpoonfish
 harpoonfish
 crystallised harpoonfish
@@ -14762,8 +12329,6 @@ fish barrel
 open fish barrel
 fish sack barrel
 open fish sack barrel
-spirit flakes
-casket
 spirit angler headband
 spirit angler top
 spirit angler waders
@@ -14804,12 +12369,6 @@ raw catfish
 catfish
 ruined catfish
 barronite shards
-barronite shards
-barronite shards
-barronite shards
-barronite shards
-barronite shards
-barronite shards
 barronite deposit
 ancient globe
 ancient ledger
@@ -14822,22 +12381,7 @@ chaos core
 ungael lab notes
 lithkren vault notes
 dusty note
-board game piece
 clan cloak
-clan cloak
-clan cloak
-clan cloak
-clan cloak
-clan cloak
-clan cloak
-clan cloak
-clan vexillum
-clan vexillum
-clan vexillum
-clan vexillum
-clan vexillum
-clan vexillum
-clan vexillum
 clan vexillum
 holy sanguinesti staff
 holy sanguinesti staff (uncharged)
@@ -14854,7 +12398,6 @@ lil' bloat
 lil' nylo
 lil' sot
 lil' xarp
-antique lamp
 antipoison (-)(1)
 antipoison (-)(2)
 antipoison (-)(3)
@@ -14878,7 +12421,6 @@ noted abyssal ashes
 infernal ashes
 noted infernal ashes
 ash sanctifier
-receipt
 bone
 rose
 delivery confirmation
@@ -14901,7 +12443,6 @@ dark nullifier
 shayzien journal
 book of the dead
 protest banner
-research notes
 lizardkicker
 noted lizardkicker
 shayzia military orders
@@ -14911,8 +12452,6 @@ little parasite
 slepey tablet
 parasitic egg
 banana hat
-sraracha
-sraracha
 orange egg sac
 blue egg sac
 amethyst dart
@@ -14926,20 +12465,6 @@ bow of faerdhinen (inactive)
 noted bow of faerdhinen (inactive)
 bow of faerdhinen
 bow of faerdhinen (c)
-blade of saeldor (c)
-blade of saeldor (c)
-blade of saeldor (c)
-blade of saeldor (c)
-blade of saeldor (c)
-blade of saeldor (c)
-blade of saeldor (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
-bow of faerdhinen (c)
 tztok slayer helmet
 tztok slayer helmet (i)
 vampyric slayer helmet
@@ -14948,12 +12473,6 @@ tzkal slayer helmet
 tzkal slayer helmet (i)
 dragon hunter crossbow (t)
 dragon hunter crossbow (b)
-antique lamp
-antique lamp
-antique lamp
-antique lamp
-antique lamp
-antique lamp
 ghommal's hilt 1
 ghommal's hilt 2
 ghommal's hilt 3
@@ -14961,14 +12480,10 @@ ghommal's hilt 4
 ghommal's hilt 5
 ghommal's hilt 6
 anim offhand
-anim offhand
-anim offhand
-anim offhand
 combat achievements
 corrupted paddlefish
 corrupted escape crystal
 crystal paddlefish
-escape crystal
 crypt key
 ranis' head
 strange spider eggs
@@ -14980,123 +12495,64 @@ keris partisan
 keris partisan of breaching
 elidinis' ward
 sigil of resilience
-sigil of resilience
-sigil of consistency
 sigil of consistency
 sigil of the formidable fighter
-sigil of the formidable fighter
-sigil of the rigorous ranger
 sigil of the rigorous ranger
 sigil of the meticulous mage
-sigil of the meticulous mage
-sigil of fortification
 sigil of fortification
 sigil of barrows
-sigil of barrows
-sigil of deft strikes
 sigil of deft strikes
 sigil of freedom
-sigil of freedom
-sigil of enhanced harvest
 sigil of enhanced harvest
 sigil of storage
-sigil of storage
-sigil of the smith
 sigil of the smith
 sigil of the alchemist
-sigil of the alchemist
-sigil of the fletcher
 sigil of the fletcher
 sigil of the chef
-sigil of the chef
-sigil of the craftsman
 sigil of the craftsman
 sigil of the abyss
-sigil of the abyss
-sigil of stamina
 sigil of stamina
 sigil of the potion master
-sigil of the potion master
-sigil of the eternal jeweller
 sigil of the eternal jeweller
 sigil of the treasure hunter
-sigil of the treasure hunter
-sigil of mobility
 sigil of mobility
 sigil of exaggeration
-sigil of exaggeration
-sigil of specialised strikes
 sigil of specialised strikes
 sigil of the porcupine
-sigil of the porcupine
-sigil of binding
 sigil of binding
 sigil of escaping
-sigil of escaping
-sigil of the ruthless ranger
 sigil of the ruthless ranger
 sigil of the feral fighter
-sigil of the feral fighter
-sigil of the menacing mage
 sigil of the menacing mage
 sigil of prosperity
-sigil of prosperity
-sigil of the dwarves
 sigil of the dwarves
 sigil of the elves
-sigil of the elves
-sigil of the barbarians
 sigil of the barbarians
 sigil of the gnomes
-sigil of the gnomes
-sigil of nature
 sigil of nature
 sigil of devotion
-sigil of devotion
-sigil of the forager
 sigil of the forager
 sigil of garments
-sigil of garments
-sigil of slaughter
 sigil of slaughter
 sigil of the fortune farmer
-sigil of the fortune farmer
-sigil of versatility
 sigil of versatility
 sigil of the serpent
-sigil of the serpent
-sigil of supreme stamina
 sigil of supreme stamina
 sigil of preservation
-sigil of preservation
-sigil of finality
 sigil of finality
 sigil of pious protection
-sigil of pious protection
-sigil of aggression
 sigil of aggression
 sigil of rampage
-sigil of rampage
-sigil of the skiller
 sigil of the skiller
 sigil of remote storage
-sigil of remote storage
 sigil of last recall
-sigil of last recall
-sigil of the guardian angel
 sigil of the guardian angel
 mount karuulm diary
 group ironman helm
 group ironman platebody
-group ironman platebody
-group ironman platebody
-group ironman platebody
 group ironman platelegs
 group ironman bracers
 hardcore group ironman helm
-hardcore group ironman platebody
-hardcore group ironman platebody
-hardcore group ironman platebody
 hardcore group ironman platebody
 hardcore group ironman platelegs
 hardcore group ironman bracers
@@ -15126,7 +12582,6 @@ gold sink
 festive cinnamon
 festive holly
 festive white wine
-notes
 magical cleaning potion
 pink stained platebody
 pink stained platelegs
@@ -15138,9 +12593,6 @@ festive gingerbread gnomes
 festive mulled wine
 snow
 secret santa present
-secret santa present
-secret santa present
-chocolate chips
 chocolate chips
 a big present
 festive elf slippers
@@ -15167,7 +12619,6 @@ ancient mix(2)
 noted ancient mix(2)
 ancient mix(1)
 noted ancient mix(1)
-frozen key
 frozen key piece (armadyl)
 frozen key piece (bandos)
 frozen key piece (zamorak)
@@ -15340,24 +12791,7 @@ banana pizza (cookout)
 burnt banana pizza (cookout)
 skis
 loot key
-shoe
-shoe
-shoe
-shoe
-shoe
 shoe.
-shoe
-shoe
-shoe
-shoe
-shoe
-shoe.
-shoe
-shoe
-shoe
-shoe
-shoe
-shoe
 maoma's med helm (broken)
 maoma's full helm (broken)
 maoma's great helm (broken)
@@ -15433,13 +12867,8 @@ superior calamity breeches (l)
 elite calamity breeches
 elite calamity breeches (l)
 colossal pouch
-colossal pouch
 gold tiara
 noted gold tiara
-abyssal pearls
-abyssal pearls
-abyssal pearls
-abyssal pearls
 abyssal pearls
 catalytic talisman
 noted catalytic talisman
@@ -15453,7 +12882,6 @@ abyssal red dye
 abyssal needle
 ring of the elements
 noted ring of the elements
-ring of the elements
 guardian's eye
 abyssal lantern
 abyssal lantern (normal logs)
@@ -15509,7 +12937,6 @@ abyssal protector
 eye amulet
 strong cup of tea
 abyssal incantation
-colossal pouch
 intricate pouch
 tarnished locket
 lost bag
@@ -15521,7 +12948,6 @@ big bucket
 big bucket of camel milk
 big bucket of frozen camel milk
 cooler
-easter egg
 melted easter egg
 ice cream easter egg
 blunt scimitars
@@ -15535,13 +12961,9 @@ frozen churning machine
 easter hat
 crate ring
 polyelemental guardian stone
-message
 pharaoh's sceptre (uncharged)
 noted pharaoh's sceptre (uncharged)
 scarab mould
-scarab emblem
-stone tablet
-chest
 scarab emblem
 human emblem
 baboon emblem
@@ -15553,12 +12975,6 @@ odd spectacles
 bottle of 'tonic'
 circlet of water (uncharged)
 circlet of water
-lost bag
-lost bag
-lost bag
-amulet of the eye
-amulet of the eye
-amulet of the eye
 ensouled hellhound head
 noted ensouled hellhound head
 void knight top (l)(or)
@@ -15593,9 +13009,6 @@ group ironman helm (unranked)
 group ironman platelegs (unranked)
 group ironman bracers (unranked)
 group ironman platebody (unranked)
-group ironman platebody (unranked)
-group ironman platebody (unranked)
-group ironman platebody (unranked)
 elder maul ornament kit
 elder maul (or)
 mithril gloves (wrapped)
@@ -15609,17 +13022,6 @@ dagon'hai robes ornament kit
 dagon'hai hat (or)
 dagon'hai robe top (or)
 dagon'hai robe bottom (or)
-flower crown
-flower crown
-flower crown
-flower crown
-flower crown
-flower crown
-flower crown
-flower crown
-mystic robe bottom (dark)
-mystic robe bottom (light)
-bow of faerdhinen (c)
 menaphite remedy(4)
 noted menaphite remedy(4)
 menaphite remedy(3)
@@ -15631,10 +13033,8 @@ noted menaphite remedy(1)
 scarab dung
 fossilised dung
 noted fossilised dung
-fang
 big banana
 eldritch ashes
-grain
 masori mask
 noted masori mask
 masori body
@@ -15676,11 +13076,8 @@ keris partisan of corruption
 jewel of the sun
 keris partisan of the sun
 cache of runes
-water container
-mirror
 neutralising potion
 maisa's message
-antique lamp
 akila's journal
 het's capture
 apmeken's capture
@@ -15736,7 +13133,6 @@ masori assembler max cape
 masori assembler max cape (l)
 masori assembler max hood
 dawn scarab egg
-ancient key
 mask of rebirth
 masori crafting kit
 masori assembler
@@ -15781,17 +13177,7 @@ socks of ruin
 cloak of ruin
 infinite money bag
 adventurer's cape
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 fresh start helper
-treat cauldron
-treat cauldron
-treat cauldron
-treat cauldron
 treat cauldron
 witch hat
 witch top
@@ -15808,35 +13194,13 @@ noted spooky egg
 old wool
 noted old wool
 halloween wig
-halloween wig
-halloween wig
-halloween wig
-halloween wig
-halloween wig
 divine rune pouch (l)
 kasonde's journal
 word translations
 dirty note
 warning note
-stone tablet
-stone tablet
-stone tablet
-stone tablet
-wood carving
-wood carving
-wood carving
-wood carving
-wood carving
-wood carving
-wood carving
-wood carving
 wood carving
 compass
-wood carving
-wood carving
-wood carving
-wood carving
-wood carving
 ghommal's lucky penny
 ghommal's avernic defender 5
 ghommal's avernic defender 5 (l)
@@ -15847,7 +13211,6 @@ broken gingerbread
 very broken gingerbread
 shattered gingerbread
 sack of coal
-snowball
 golden snowball
 light beer
 mulled pine
@@ -15867,9 +13230,6 @@ sweet nutcracker boots
 sweet nutcracker staff
 festive games crown
 muphin
-muphin
-muphin
-dusty scroll
 tullia's letter
 ancient map
 strange cipher
@@ -15880,17 +13240,12 @@ settlements note
 lever handle
 icy chest
 jewel shard
-jewel shard
 ancient jewel
 icy key
 venator bow
 venator bow (uncharged)
 noted venator bow (uncharged)
 venator shard
-ancient essence
-ancient essence
-ancient essence
-ancient essence
 ancient essence
 frozen cache
 ancient sceptre
@@ -15908,10 +13263,6 @@ saturated heart
 charged ice
 mystic cards
 noted saturated heart
-venenatis spiderling
-callisto cub
-vet'ion jr.
-vet'ion jr.
 webweaver bow (u)
 noted webweaver bow (u)
 webweaver bow
@@ -15939,54 +13290,10 @@ noted voidwaker gem
 voidwaker
 noted voidwaker
 dragon pickaxe (broken)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
 diamond speedrun trophy
 thammaron's sceptre (au)
 noted thammaron's sceptre (au)
 thammaron's sceptre (a)
-nightshade
-nightshade
 nightshade
 gnome child backpack
 cake hat
@@ -16032,7 +13339,6 @@ abyssal dagger (bh)(p+)
 abyssal dagger (bh)(p++)
 giant bronze dagger
 eastfloor spade
-nest hat
 nest hat
 noted virtus robe top
 noted virtus robe bottom
@@ -16133,21 +13439,7 @@ bounty crate (tier 7)
 bounty crate (tier 8)
 bounty crate (tier 9)
 colourful scarf
-colourful scarf
-colourful scarf
-colourful scarf
-colourful scarf
-colourful scarf
-colourful scarf
-colourful scarf
 rainbow jumper
-colourful jumper
-colourful jumper
-colourful jumper
-colourful jumper
-colourful jumper
-colourful jumper
-colourful jumper
 colourful jumper
 poet's jacket
 love crossbow
@@ -16208,15 +13500,6 @@ crystal felling axe
 crystal felling axe (inactive)
 3rd age felling axe
 noted 3rd age felling axe
-beaver
-beaver
-beaver
-beaver
-beaver
-beaver
-beaver
-beaver
-beaver
 blood ancient sceptre (broken)
 smoke ancient sceptre (broken)
 ice ancient sceptre (broken)
@@ -16250,13 +13533,9 @@ warrior icon
 noted warrior icon
 seers icon
 noted seers icon
-ultor ring
 noted ultor ring
-venator ring
 noted venator ring
-magus ring
 noted magus ring
-bellator ring
 noted bellator ring
 executioner's axe head
 eye of the duke
@@ -16271,7 +13550,6 @@ frozen tablet
 awakener's orb
 noted awakener's orb
 ancient blood ornament kit
-soulreaper axe
 noted soulreaper axe
 musca mushroom
 musca powder
@@ -16289,9 +13567,6 @@ holos-arder poison
 resper-holos poison
 arder-resper poison
 blackstone fragment
-blackstone fragment
-strange icon
-icon segment
 icon segment
 very long rope
 basic shadow torch
@@ -16301,10 +13576,6 @@ shadow blocker
 revitalising idol
 anima portal
 shadow key
-shadow key
-shadow key
-shadow key
-shadow key
 anima portal schematic
 revitalising idol schematic
 shadow blocker schematic
@@ -16312,15 +13583,10 @@ basic shadow torch schematic
 superior shadow torch schematic
 perfected shadow torch schematic
 potion note
-strange potion
 korbal herb
 argian berries
 unfinished serum
-unfinished serum
 strangler serum
-temple key
-barricade
-noted barricade
 detonator
 tatty page
 mucky note
@@ -16332,9 +13598,6 @@ whisperer's medallion
 ancient lamp
 dr banikan
 prisoner's letter
-sapphire key
-emerald key
-ruby key
 diamond key
 dragonstone key
 onyx key
@@ -16357,7 +13620,6 @@ evacuation note
 old tablet
 damp tablet
 slimy key
-gunpowder
 scarred scraps
 withered note
 earth nerve
@@ -16388,40 +13650,22 @@ ice ancient sceptre (l)
 smoke ancient sceptre (l)
 shadow ancient sceptre (l)
 sigil of sustenance
-sigil of sustenance
-sigil of hoarding
 sigil of hoarding
 sigil of the alchemaniac
-sigil of the alchemaniac
-sigil of the hunter
 sigil of the hunter
 sigil of resistance
-sigil of resistance
-sigil of agile fortune
 sigil of agile fortune
 sigil of the food master
-sigil of the food master
-sigil of the well fed
 sigil of the well fed
 sigil of the infernal chef
-sigil of the infernal chef
-sigil of the infernal smith
 sigil of the infernal smith
 sigil of the lightbearer
-sigil of the lightbearer
-sigil of the bloodhound
 sigil of the bloodhound
 sigil of precision
-sigil of precision
-sigil of the augmented thrall
 sigil of the augmented thrall
 sigil of faith
-sigil of faith
-sigil of titanium
 sigil of titanium
 sigil of the ninja
-sigil of the ninja
-sigil of woodcraft
 sigil of woodcraft
 corrupted voidwaker
 noted corrupted voidwaker
@@ -16449,7 +13693,6 @@ trinket of advanced weaponry
 noted trinket of advanced weaponry
 trinket of undead
 noted trinket of undead
-chest key
 strongroom key
 crystal chime seed
 crystal chime
@@ -16468,10 +13711,6 @@ mangled extract
 scarred extract
 cobweb cape
 spider hat
-spider hat
-spider hat
-spider hat
-spider hat
 cape pouch
 noted felling axe handle
 pheasant cape
@@ -16484,8 +13723,6 @@ sawmill voucher
 twitcher's gloves
 smoker fuel
 smoker canister
-mulch
-mulch
 packed mulch
 crystal charm
 petal circlet
@@ -16497,7 +13734,6 @@ golden pheasant egg
 trap disarmer
 trap disarmer blueprint
 pheasant
-fox
 web cloak
 fancier boots
 sturdy beehive parts
@@ -16576,7 +13812,6 @@ bone shortbow
 bone staff
 scurrius' spine
 scurry
-grubby key
 bottle
 bottle of mist
 imbued barronite
@@ -16587,7 +13822,6 @@ zombie axe
 noted zombie axe
 broken zombie axe
 noted broken zombie axe
-stone tablet
 granite tablet
 slate tablet
 shale tablet
@@ -16611,24 +13845,13 @@ moonlight antelope
 hunters' sunlight crossbow
 noted hunters' sunlight crossbow
 sunlight antler bolts
-sunlight antler bolts
-sunlight antler bolts
-sunlight antler bolts
-sunlight antler bolts
-moonlight antler bolts
-moonlight antler bolts
-moonlight antler bolts
-moonlight antler bolts
 moonlight antler bolts
 sunlight antler
 noted sunlight antler
 moonlight antler
 noted moonlight antler
-sunlight moth
 noted sunlight moth
-moonlight moth
 noted moonlight moth
-rum
 noted rum
 wyrmling bones
 noted wyrmling bones
@@ -16638,9 +13861,6 @@ dizana's max cape (l)
 tonalztics of ralos (uncharged)
 noted tonalztics of ralos (uncharged)
 tonalztics of ralos
-sunfire splinters
-sunfire splinters
-sunfire splinters
 sunfire splinters
 sunfire rune
 searing page
@@ -16685,10 +13905,6 @@ love letter
 plushy
 blue moon spear
 noted blue moon spear
-atlatl dart
-atlatl dart
-atlatl dart
-atlatl dart
 atlatl dart
 dual macuahuitl
 noted dual macuahuitl
@@ -16742,11 +13958,6 @@ sulphur blades
 noted sulphur blades
 sulphurous essence
 calcified deposit
-calcified moth
-calcified moth
-calcified moth
-calcified moth
-calcified moth
 calcified moth
 not meat
 noted not meat
@@ -16853,7 +14064,6 @@ sunlight moth wing
 salamander claw
 herby tuft
 moonlight moth wing
-antelope hoof shard
 hunters' loot sack (basic)
 hunters' loot sack (adept)
 hunters' loot sack (expert)
@@ -16891,29 +14101,14 @@ small fur pouch
 medium fur pouch
 large fur pouch
 hunter's spear
-quetzal feed
 huntsman's kit
-hunter spear tips
-hunter spear tips
-hunter spear tips
-hunter spear tips
 hunter spear tips
 tattered request note
 guild history excerpt
 apatura's note
 apatura's key
 house keys
-house keys
-house keys
-house keys
-house keys
 valuables
-valuables
-valuables
-valuables
-valuables
-blessed bone statuette
-blessed bone statuette
 blessed bone statuette
 blessed bones
 blessed bat bones
@@ -16931,7 +14126,6 @@ blessed hydra bones
 blessed fayrg bones
 blessed raurg bones
 blessed ourg bones
-dagannoth bones
 sun-kissed bones
 noted sun-kissed bones
 blessed bone shards
@@ -16961,10 +14155,6 @@ egg priest necklace
 egg priest mitre
 imbued mage arena cape
 zombie pirate key
-zombie pirate key
-zombie pirate key
-zombie pirate key
-zombie pirate key
 teleport anchoring scroll
 noted teleport anchoring scroll
 adamant seeds
@@ -16974,7 +14164,6 @@ large meat pouch (open)
 small fur pouch (open)
 medium fur pouch (open)
 large fur pouch (open)
-prospector legs
 brimhaven voucher
 agility xp
 graceful recolour
@@ -16982,28 +14171,13 @@ cursed amulet of magic
 noted cursed amulet of magic
 rainbow cape
 colourful cape
-colourful cape
-colourful cape
-colourful cape
-colourful cape
-colourful cape
-colourful cape
-colourful cape
 rainbow crown shirt
-colourful crown shirt
-colourful crown shirt
-colourful crown shirt
-colourful crown shirt
-colourful crown shirt
-colourful crown shirt
-colourful crown shirt
 colourful crown shirt
 armadyl communiqué
 unconscious broav
 broav
 dirty shirt
 waste-paper basket
-ruby key
 notes on pressure
 movario's notes (volume 1)
 movario's notes (volume 2)
@@ -17012,7 +14186,6 @@ weight (2kg)
 weight (5kg)
 enriched snapdragon
 super truth serum
-truth serum
 suspect sketch
 cell key
 strange teleorb
@@ -17089,26 +14262,15 @@ noted blighted overload (1)
 chitin
 noted chitin
 sigil of meticulousness
-sigil of meticulousness
-sigil of revoked limitation
 sigil of revoked limitation
 sigil of the rampart
-sigil of the rampart
-sigil of deception
 sigil of deception
 sigil of litheness
-sigil of litheness
-sigil of the adroit
 sigil of the adroit
 sigil of onslaught
-sigil of onslaught
-sigil of restoration
 sigil of restoration
 sigil of the swashbuckler
-sigil of the swashbuckler
 sigil of the gunslinger
-sigil of the gunslinger
-sigil of arcane swiftness
 sigil of arcane swiftness
 guthixian temple teleport
 dni23 torso lightbuttons
@@ -17185,23 +14347,14 @@ extended anti-venom+(1)
 noted extended anti-venom+(1)
 nid
 rax
-dual macuahuitl
-eclipse atlatl
 prince itzla arkan
 emissary hood
 emissary robe top
 emissary robe bottom
 emissary sandals
-stone tablet
-tower key
 poem
 scrap of paper
-scrap of paper
-scrap of paper
 completed note
-icon
-icon
-icon
 icon
 glacial temotli
 noted glacial temotli
@@ -17214,10 +14367,7 @@ noted varlamorian kebab
 tattered sails
 sails
 betty's notes
-storeroom key
-prop sword
 butler's tray
-butler's uniform
 butler's uniform
 costume needle
 case file
@@ -17226,7 +14376,6 @@ threatening note
 shipping contract
 wine labels
 ram mask
-wolf mask
 bird mask
 jaguar mask
 snake mask
@@ -17251,13 +14400,9 @@ apprentice potion pack
 adept potion pack
 expert potion pack
 prescription goggles
-prescription goggles
 alchemist labcoat
-alchemist labcoat
-alchemist pants
 alchemist pants
 alchemist gloves
-alchemist's amulet
 alchemist's amulet
 aldarium
 noted aldarium
@@ -17280,16 +14425,6 @@ liplack liquor
 anti-leech lotion
 megalite liquid
 mixalot
-mammoth-might mix
-mystic mana amalgam
-marley's moonlight
-alco-augmentator
-aqualux amalgam
-azure aura mix
-liplack liquor
-anti-leech lotion
-megalite liquid
-mixalot
 digweed
 mixology lab notes
 moonrise wines
@@ -17298,12 +14433,6 @@ termites
 colossal wyrm teleport scroll
 calcified acorn
 graceful crafting kit
-graceful hood
-graceful cape
-graceful top
-graceful legs
-graceful gloves
-graceful boots
 tome of earth
 tome of earth (empty)
 noted tome of earth (empty)
@@ -17321,10 +14450,6 @@ noted hueycoatl hide vambraces
 hueycoatl hide
 noted hueycoatl hide
 huasca seed
-huasca seed
-huasca seed
-huasca seed
-huasca seed
 grimy huasca
 noted grimy huasca
 huasca
@@ -17332,8 +14457,6 @@ noted huasca
 huasca potion (unf)
 noted huasca potion (unf)
 redberry antelope
-tooth half of key
-loop half of key
 moon key
 helmet of the moon
 nasty token
@@ -17361,7 +14484,6 @@ huberte
 moxi
 scarecrow shirt
 halloween scarecrow
-scarecrow
 beige pumpkin (disgusted)
 beige pumpkin (silly)
 beige pumpkin (evil)
@@ -17425,12 +14547,8 @@ powder grey pumpkin (shocked)
 powder grey pumpkin (sad)
 powder grey pumpkin (happy)
 powder grey pumpkin (laughing)
-torva full helm
-torva platebody
-torva platelegs
 arclight (inactive)
 elias' message
-mastaba key
 mastaba key
 base plans
 base key
@@ -17455,15 +14573,6 @@ noted raging echoes relic hunter (t2) armour set
 raging echoes relic hunter (t3) armour set
 noted raging echoes relic hunter (t3) armour set
 crystal dagger (perfected)
-infernal harpoon (or)
-infernal harpoon (uncharged)
-infernal pickaxe (or)
-infernal pickaxe (uncharged)
-infernal axe (or)
-infernal axe (uncharged)
-dragon harpoon (or)
-dragon pickaxe (or)
-dragon axe (or)
 forager's pouch
 leprechaun's vault
 banker's briefcase
@@ -17531,17 +14640,11 @@ raging echoes steel trophy
 raging echoes iron trophy
 raging echoes bronze trophy
 present box hat
-present box hat
-present box hat
-present box hat
 dog disguise
 festive scarf
 dog boots
-spirit tree
-spirit tree
 raging echoes portal nexus
 raging echoes portal
-scrying pool
 raging echoes spirit tree & fairy ring
 raging echoes rug
 raging echoes curtains
@@ -17581,9 +14684,7 @@ noted echo home teleport scroll
 noted raging echoes death scroll
 noted raging echoes npc contact scroll
 noted raging echoes nexus scroll
-raging echoes rug
 noted raging echoes rug
-raging echoes curtains
 noted raging echoes curtains
 raging echoes scrying pool scroll
 noted raging echoes scrying pool scroll
@@ -17599,15 +14700,6 @@ echo ahrim's staff 25
 echo ahrim's staff 0
 bounty supply crate
 noted bounty supply crate
-collection log
-collection log
-collection log
-collection log
-collection log
-collection log
-collection log
-collection log
-collection log
 bronze staff of collection
 iron staff of collection
 steel staff of collection
@@ -17640,19 +14732,7 @@ classic imp hood
 teak display
 mahogany display
 gilded display
-cockatrice head
-cockatrice head
-basilisk head
-basilisk head
-kurask head
-abyssal head
 oak display
-teak display
-mahogany display
-mounted bass
-mounted bass
-mounted swordfish
-mounted harpoonfish
 nimbleness charm
 noted nimbleness charm
 stockpiling charm
@@ -17665,14 +14745,6 @@ broken charm
 trinket dust
 castle wars supply crate
 castle wars arrow
-castle wars bolts
-castle wars arrow
-castle wars arrow
-castle wars arrow
-castle wars arrow
-castle wars bolts
-castle wars bolts
-castle wars bolts
 castle wars bolts
 carrot costume hat
 carrot costume body
@@ -17692,10 +14764,6 @@ soulflame horn
 noted soulflame horn
 forgotten lockbox
 oathplate shards
-oathplate shards
-oathplate shards
-oathplate shards
-oathplate shards
 aether catalyst
 diabolic worms
 chasm teleport scroll
@@ -17713,7 +14781,6 @@ noted barrel of demonic tallow (full)
 barrel of demonic tallow
 demonic tallow
 noted demonic tallow
-dossier
 rite of vile transference
 jim's wet cloth
 contract of glyphic attenuation
@@ -17741,21 +14808,11 @@ noted contract of familiar acquisition
 aether rune
 infernal shale
 crushed infernal shale
-crushed infernal shale
-crushed infernal shale
-crushed infernal shale
-crushed infernal shale
 infernal blend
 malformed infernal blend
 infernal nugget
 cooled infernal chunk
 infernal chunk
-infernal plate
-infernal plate
-infernal plate
-infernal plate
-infernal plate
-infernal plate
 infernal plate
 surge potion(4)
 noted surge potion(4)
@@ -17794,15 +14851,12 @@ coin purse
 empty coin purse
 sandy coin purse
 makeshift blackjack
-branch
 potato sack
 emissary scroll
 canvas piece
-key
 arkan blade
 earthbound tecpatl
 noted earthbound tecpatl
-antique lamp
 keystone fragment
 kuhu essence
 ancient roots
@@ -17812,45 +14866,23 @@ ancient teleporter
 large egg
 dragon egg
 jaguar egg
-egg
 alan's bones
 alan's bonemeal
 damiana leaves
 damiana water
 damiana tea
-damiana tea
 acatzin's axe
-acatzin's axe
-custodian stalker
-custodian stalker
 custodian stalker
 events tool
 atlatl dart tips
-atlatl dart tips
-atlatl dart tips
-atlatl dart tips
-atlatl dart tips
 atlatl dart shaft
-atlatl dart shaft
-atlatl dart shaft
-atlatl dart shaft
-atlatl dart shaft
-headless atlatl dart
-headless atlatl dart
-headless atlatl dart
-headless atlatl dart
 headless atlatl dart
 sacraments of ent folk
-ent seed
-ent seed
-ent seed
 ent seed
 greenman carving
 noted greenman carving
 greenman statue
 noted greenman statue
-greenman carving
-greenman statue
 ent branch
 greenman mask
 noted greenman mask
@@ -17867,10 +14899,6 @@ redwood hiking staff
 noted redwood hiking staff
 bow string spool
 vale offerings
-vale offerings
-vale offerings
-vale offerings
-letter
 alan's blessed bones
 on migration patterns
 auburn valley ecological reports
@@ -17888,10 +14916,6 @@ avernic treads (pr)(et)
 avernic treads (pe)(et)
 avernic treads (max)
 mokhaiotl waystone
-mokhaiotl waystone
-mokhaiotl waystone
-mokhaiotl waystone
-mokhaiotl waystone
 confliction gauntlets
 noted confliction gauntlets
 mokhaiotl cloth
@@ -17899,12 +14923,9 @@ demon tear
 eye of ayak
 eye of ayak (uncharged)
 noted eye of ayak (uncharged)
-orange
 old letter
-token
 blueberry muffin
 dom
-agility swing
 agility swing
 blood moon armour set
 noted blood moon armour set
@@ -17962,10 +14983,6 @@ grim reaper top
 grim reaper bottoms
 grim reaper gloves
 gryphon feather
-gryphon feather
-gryphon feather
-gryphon feather
-gryphon feather
 horn of plenty
 horn of plenty (empty)
 noted horn of plenty (empty)
@@ -17983,13 +15000,6 @@ sailor's mirage
 noted sailor's mirage
 blessed strykewyrm bones
 blessed frost dragon bones
-rock golem
-rock golem
-rock golem
-beaver
-beaver
-beaver
-beaver
 soup
 gull
 gulliver
@@ -17999,7 +15009,6 @@ sailing hood
 deep sea helmet
 deep sea apparatus
 pirate medallion
-deep sea helmet
 form cr-4p
 form 7r4-5h
 mayoral fishbowl
@@ -18009,24 +15018,18 @@ frost dragon bonemeal
 old cup
 paper
 confession
-note
 ink bottle
 inky paper
-ink bottle
 smashed bottle
 prison uniform top
 prison uniform trousers
 fishy prison uniform top
 tin cup
-pipe
-accordion
-accordion
 accordion
 vacuum pump
 vacuum pump and gull
 quill
 inky quill
-file
 file
 camphor pyre logs
 noted camphor pyre logs
@@ -18061,15 +15064,6 @@ rosewood plank
 noted rosewood plank
 summon boat
 teleport to boat
-mounted giant blue krill
-mounted giant blue krill
-mounted golden haddock
-mounted golden haddock
-mounted orangefin
-mounted orangefin
-mounted halibut
-mounted purplefin
-mounted marlin
 ball of cotton
 noted ball of cotton
 hemp
@@ -18109,30 +15103,6 @@ noted rosewood sapling
 elkhorn frag
 pillar frag
 umbral frag
-flax seed
-flax seed
-flax seed
-flax seed
-hemp seed
-hemp seed
-hemp seed
-hemp seed
-cotton seed
-cotton seed
-cotton seed
-cotton seed
-camphor seed
-camphor seed
-camphor seed
-camphor seed
-ironwood seed
-ironwood seed
-ironwood seed
-ironwood seed
-rosewood seed
-rosewood seed
-rosewood seed
-rosewood seed
 flax seed
 hemp seed
 cotton seed
@@ -18223,10 +15193,6 @@ noted umbral potion (unf)
 noted red crab
 blue crab
 noted blue crab
-rainbow crab
-noted rainbow crab
-rainbow crab
-noted rainbow crab
 rainbow crab
 noted rainbow crab
 raw red crab meat
@@ -18516,40 +15482,23 @@ sandy paint
 dragon cannon barrel
 noted dragon cannon barrel
 wooden hull and hull parts
-wooden hull and hull parts
-oak hull and hull parts
 oak hull and hull parts
 teak hull and hull parts
-teak hull and hull parts
-mahogany hull and hull parts
 mahogany hull and hull parts
 camphor hull and hull parts
-camphor hull and hull parts
-ironwood hull and hull parts
 ironwood hull and hull parts
 rosewood hull and hull parts
-rosewood hull and hull parts
-bronze helm
 bronze helm
 iron helm
-iron helm
-steel helm
 steel helm
 mithril helm
-mithril helm
-adamant helm
 adamant helm
 rune helm
-rune helm
-dragon helm
 dragon helm
 wooden mast and linen sails
-wooden mast and linen sails
-oak mast and linen sails
 oak mast and linen sails
 teak mast and canvas sails
 teak mast and linen sails
-mahogany mast and canvas sails
 mahogany mast and canvas sails
 camphor mast and canvas sails
 camphor mast and linen sails
@@ -18558,22 +15507,13 @@ ironwood mast and linen sails
 rosewood mast and cotton sails
 rosewood mast and linen sails
 bronze keel
-bronze keel
-iron keel
 iron keel
 steel keel
-steel keel
-mithril keel
 mithril keel
 adamant keel
-adamant keel
 rune keel
-rune keel
-dragon keel
 dragon keel
 eternal brazier
-flag
-flag
 flag
 bronze cannon
 iron cannon
@@ -18607,29 +15547,16 @@ chum spreader
 fathom stone
 fathom pearl
 range
-keg
 anchor
 wind catcher
 gale catcher
 crystal extractor
 inoculation station
-teleport focus
 greater teleport focus
-hull wood
-hull wood
 hull wood
 mystery ingredient
 crew slot unlock
 cargo crate
-crewmate
-crewmate
-crewmate
-crewmate
-crewmate
-crewmate
-crewmate
-crewmate
-crewmate
 crewmate
 port task
 port
@@ -18665,7 +15592,6 @@ neitiznot
 prifddinas
 piscatoris
 lunar isle
-port task
 ardent ocean
 unquiet ocean
 shrouded ocean
@@ -18733,13 +15659,6 @@ fish crate (marlin)
 noted fish crate (marlin)
 medallion of the deep
 medallion fragment
-medallion fragment
-medallion fragment
-medallion fragment
-medallion fragment
-medallion fragment
-medallion fragment
-medallion fragment
 waterlogged journal
 sailors' amulet (inert)
 sailors' amulet
@@ -18792,12 +15711,9 @@ crate of platebodies
 crate of spears
 crate of arrowtips
 crate of bananas
-crate of crystal seeds
 crate of fish
-crate of furs
 crate of gold ore
 crate of halberds
-crate of jewellery
 crate of poison
 crate of rabbit meat
 crate of red coral
@@ -18811,345 +15727,108 @@ crate of beer
 crate of cacti
 crate of camphor logs
 crate of compost
-crate of fish
 crate of gems
 crate of iron bars
-crate of jewellery
 crate of machinery parts
 crate of rum
 crate of sandstone
 crate of silver ore
-crate of spices
 crate of vodka
 crate of wine
 crate of gold bars
 crate of secret stuff
-crate of arrowtips
 crate of bait
 crate of feathers
-crate of bananas
 crate of coconuts
-crate of furs
 crate of glassmaking supplies
-crate of gold ore
 crate of grog
 crate of javelins
-crate of jewellery
 crate of karambwans
 crate of pineapples
 crate of potatoes
 crate of seeds
-crate of silk
-crate of silver ore
 crate of vials
 crate of astral runes
 crate of books
 crate of coral
-crate of fish
 crate of fruit
-crate of gems
 crate of historical artefacts
-crate of nickel ore
 crate of oranges
 crate of ores
-crate of pineapples
-crate of red coral
-crate of runes
-crate of seeds
 crate of ship parts
-crate of spices
 crate of staffs
 crate of tokens
 crate of vegetables
-crate of arrowtips
-crate of bear meat
-crate of beer
-crate of daggers
-crate of fish
-crate of gems
 crate of khali brews
 crate of peg legs
-crate of platebodies
-crate of rum
 crate of scimitars
-crate of ship parts
 crate of swords
 crate of alpaca wool
-crate of camphor logs
 crate of fabrics
-crate of fruit
-crate of furs
 crate of granite
-crate of javelins
 crate of logs
-crate of machinery parts
 crate of mahogany logs
-crate of pest remains
 crate of pickaxes
 crate of planks
 crate of suqah hides
 crate of warhammers
-crate of bananas
 crate of barley
-crate of sand
-crate of adamantite ore
-crate of fish
-crate of fruit
 crate of iron ore
-crate of monkfish
 crate of onions
-crate of planks
-crate of swords
-crate of warhammers
 crate of yak hair
-crate of fish
-crate of lead ore
 crate of rope
 crate of xerician fabrics
-crate of fish
 crate of flax
-crate of logs
-crate of bear meat
-crate of fish
-crate of furs
-crate of gems
 crate of kebbit fur
 crate of meat
-crate of ores
 crate of secret things
-crate of swords
-crate of vegetables
-crate of wine
 crate of antelope fur
 crate of berries
 crate of coal
-crate of crystal seeds
-crate of fish
-crate of furs
-crate of kebbit fur
-crate of logs
 crate of potions
-crate of red coral
-crate of bananas
 crate of beer glasses
 crate of cocktails
 crate of eye patches
-crate of fish
 crate of high importance
 crate of honey
 crate of lobsters
-crate of logs
-crate of mahogany logs
-crate of meat
 crate of rotten bananas
-crate of secret stuff
-crate of ship parts
-crate of silk
-crate of coal
-crate of mahogany logs
-crate of sand
-crate of fabrics
-crate of fish
-crate of flax
-crate of furs
-crate of potions
-crate of vodka
 crate of angler outfit pieces
-crate of arrowtips
 crate of bows
 crate of bread
 crate of chainbodies
-crate of coal
-crate of crab paste
-crate of fruit
 crate of gunpowder
 crate of herbs
 crate of huasca
 crate of kyatt teeth
-crate of planks
-crate of platebodies
-crate of red coral
-crate of scimitars
-crate of secret stuff
-crate of spears
 crate of swamp paste
-crate of vodka
 crate of antelope meat
-crate of astral runes
-crate of books
 crate of cannonballs
-crate of coal
-crate of fabrics
-crate of furs
-crate of gems
 crate of gin
-crate of honey
-crate of jewellery
-crate of kebbit fur
-crate of mahogany logs
-crate of planks
-crate of platebodies
-crate of red coral
-crate of seeds
-crate of wine
-crate of antelope fur
-crate of berries
-crate of bows
-crate of coral
-crate of fabrics
-crate of fish
-crate of flax
-crate of furs
-crate of gems
-crate of honey
-crate of jewellery
-crate of logs
-crate of meat
-crate of nickel ore
-crate of ores
-crate of red coral
-crate of runes
-crate of seeds
-crate of silk
-crate of silver ore
-crate of staffs
 crate of teak logs
-crate of wine
 crate of amulets
-crate of beer
-crate of books
-crate of cacti
-crate of camphor logs
-crate of coconuts
-crate of fish
-crate of flax
-crate of honey
-crate of jewellery
 crate of kebabs
-crate of logs
 crate of nothing sinister
-crate of pest remains
-crate of red coral
-crate of runes
-crate of seeds
-crate of spices
 crate of sunbeam ale
-crate of swords
-crate of arrowtips
 crate of chinchompas
-crate of coal
-crate of fabrics
-crate of fish
-crate of fruit
-crate of furs
-crate of herbs
 crate of mithril ore
-crate of ores
-crate of platebodies
-crate of seeds
 crate of shields
 crate of snakeskin
-crate of swords
-crate of vegetables
-crate of astral runes
-crate of books
 crate of clothes
-crate of fish
-crate of halberds
-crate of herbs
-crate of logs
-crate of ores
-crate of potions
-crate of silk
-crate of spices
-crate of xerician fabrics
-crate of astral runes
 crate of battleaxes
-crate of coal
-crate of fish
-crate of furs
-crate of granite
-crate of herbs
-crate of karambwans
-crate of ores
 crate of protective clothing
-crate of runes
-crate of ship parts
-crate of spices
-crate of adamantite ore
-crate of beer
 crate of dragon bitter
-crate of fabrics
-crate of fish
-crate of halberds
-crate of lead ore
-crate of monkfish
 crate of pies
-crate of planks
 crate of redwood logs
-crate of rope
-crate of ship parts
-crate of teak logs
-crate of wine
 crate of calquat
-crate of cocktails
-crate of coral
-crate of fish
 crate of fishing supplies
-crate of javelins
-crate of planks
-crate of runes
-crate of ship parts
-crate of beer
-crate of fabrics
-crate of fish
 crate of maces
-crate of warhammers
-crate of wine
-crate of arrowtips
-crate of bananas
-crate of battleaxes
-crate of cacti
-crate of coral
-crate of gold bars
-crate of granite
-crate of meat
-crate of pineapples
-crate of platebodies
-crate of rum
 crate of sea shells
-crate of spices
 crate of steel bars
-crate of swamp paste
 crate of wax
-crate of bananas
-crate of cacti
-crate of gems
-crate of javelins
-crate of jewellery
 crate of leather
-crate of meat
-crate of nickel ore
-crate of pest remains
-crate of pineapples
-crate of potions
-crate of rope
-crate of sandstone
-crate of shields
-crate of coral
 crate of dragonhide
-crate of granite
-crate of herbs
-crate of logs
-crate of maces
-crate of ores
-crate of platebodies
-crate of potions
-crate of runes
-crate of seeds
-crate of spears
 crate of wrath runes
-crate of ship parts
 crate of looty
 bull shark jaw
 hammerhead shark jaw
@@ -19205,7 +15884,6 @@ rusty coin
 broken sextant
 mouldy doll
 smashed mirror
-antique lamp
 aquanite tendon
 noted aquanite tendon
 aquanite hopper
@@ -19228,8 +15906,6 @@ noted ironwood logs
 rosewood logs
 noted rosewood logs
 jar of feathers
-crate of arrowtips
-crate of clothes
 lovley jubbly bib
 beer belly sweater
 jad jumper
@@ -19247,13 +15923,6 @@ annihilation blueprints
 noted annihilation blueprints
 annihilation teleport scroll
 noted annihilation teleport scroll
-crystal body
-crystal body (inactive)
-crystal legs
-crystal legs (inactive)
-crystal helm
-crystal helm (inactive)
-toxic staff (uncharged)
 toxic staff (deadman)
 noted the dogsword
 noted thunder khopesh
@@ -19264,14 +15933,9 @@ noted trinket of fortuity (inactive)
 trinket of fortuity (active)
 noted trinket of fortuity (active)
 sigil of the gods
-sigil of the gods
-sigil of conclusion
 sigil of conclusion
 sigil of automation
-sigil of automation
 sigil of eternal belief
-sigil of eternal belief
-sigil of efficiency
 sigil of efficiency
 starter cape
 deadman's skull
@@ -19280,8 +15944,6 @@ hooded slayer helmet (i)
 facility bottle (empty)
 noted facility bottle (empty)
 facility bottle (full)
-noted rum
-noted rum
 25th anniversary helmet
 25th anniversary warrior tabard
 25th anniversary skeleton tabard
@@ -19290,12 +15952,8 @@ bottomless milk bucket
 bottomless milk bucket (empty)
 cow slippers
 noted cow slippers
-cow slippers
-cow slippers
-cow slippers
 brutus slippers
 mooleta
-cowbell amulet
 cowbell amulet
 raw t-bone steak
 noted raw t-bone steak
@@ -19321,12 +15979,6 @@ veiled kraken ink sac
 scribbled notes
 egg box
 archibald
-archibald
-archibald
-archibald
-archibald
-archibald
-archibald
 noted bow of faerdhinen (c)
 noted crystal body
 noted crystal legs
@@ -19334,15 +15986,6 @@ noted crystal helm
 noted avernic treads (max)
 noted elidinis' ward (f)
 noted purging staff
-noted dragonfire shield
-bronze cannon
-iron cannon
-steel cannon
-mithril cannon
-adamant cannon
-rune cannon
-dragon cannon
-knapsack
 knapsack
 barbarian arm
 evil eye
@@ -19351,7 +15994,6 @@ soul shard
 map of alacrity
 clue contract
 butler's bell
-flask of fervour
 flask of fervour
 infernal tecpatl
 nature's recurve
@@ -19407,7 +16049,6 @@ trident of the seas (e) (o)
 uncharged trident (e) (o)
 iban's staff (o)
 iban's staff (u) (o)
-iban's staff (o)
 soulreaper axe (o)
 oathplate slayer helmet
 radiant slayer helmet
@@ -19501,59 +16142,15 @@ noted etched araxyte fang
 garlic cocktail
 bucket of bloodwood sap
 seeking arrow shaft
-seeking arrow shaft
-seeking arrow shaft
-seeking arrow shaft
-seeking arrow shaft
-seeking headless arrow
-seeking headless arrow
-seeking headless arrow
-seeking headless arrow
 seeking headless arrow
 seeking bronze arrow
-seeking bronze arrow
-seeking bronze arrow
-seeking bronze arrow
-seeking bronze arrow
-seeking iron arrow
-seeking iron arrow
-seeking iron arrow
-seeking iron arrow
 seeking iron arrow
 seeking steel arrow
-seeking steel arrow
-seeking steel arrow
-seeking steel arrow
-seeking steel arrow
-seeking mithril arrow
-seeking mithril arrow
-seeking mithril arrow
-seeking mithril arrow
 seeking mithril arrow
 seeking adamant arrow
-seeking adamant arrow
-seeking adamant arrow
-seeking adamant arrow
-seeking adamant arrow
-seeking rune arrow
-seeking rune arrow
-seeking rune arrow
-seeking rune arrow
 seeking rune arrow
 seeking amethyst arrow
-seeking amethyst arrow
-seeking amethyst arrow
-seeking amethyst arrow
-seeking amethyst arrow
 seeking dragon arrow
-seeking dragon arrow
-seeking dragon arrow
-seeking dragon arrow
-seeking dragon arrow
-seeking broad arrows
-seeking broad arrows
-seeking broad arrows
-seeking broad arrows
 seeking broad arrows
 sap-treated logs
 sap-treated magic logs
@@ -19568,7 +16165,6 @@ letvek
 dull ancient medal
 stymphike tartare
 rotten stymphike tartare
-supplies
 crimson kisten
 noted crimson kisten
 elder venator fang
@@ -19586,11 +16182,6 @@ orikalkum gravel
 grapevine
 venator fang
 venator tooth
-maggot egg
-maggot egg
-maggot egg
-maggot egg
-maggot egg
 maggot egg
 tarnished longsword
 tarnished spear
@@ -19614,7 +16205,6 @@ ivandis' writings
 diamond sickle (b)
 enchanted diamond sickle (b)
 blisterwood sickle (e)
-tome of experience
 blisterwood stake
 hallowed flail
 ivan strom
@@ -19631,7 +16221,6 @@ drakan emblem
 left crest half
 right crest half
 full crest
-ancient symbol
 ancient shield
 shield with symbol
 ornate knife
@@ -19652,14 +16241,10 @@ empty syringe
 full syringe
 venator stomach
 sword
-spear
 battleaxe
-mace
 lockbox
 ancestral dagger
-grid note
 mysterious book
-fancy gem
 fancy gem
 gilded book
 vampyre book
@@ -19671,8 +16256,6 @@ lab notes
 chemical vial
 old cog
 jovkai key
-loop half of key
-tooth half of key
 myrmel key
 shadum key
 vitur key
@@ -19717,55 +16300,3 @@ stymphike
 venator
 ancient sceptre (l) (broken)
 ancient sceptre (l) (mangled)
-marrentill seed
-marrentill seed
-marrentill seed
-marrentill seed
-tarromin seed
-tarromin seed
-tarromin seed
-tarromin seed
-harralander seed
-harralander seed
-harralander seed
-harralander seed
-ranarr seed
-ranarr seed
-ranarr seed
-ranarr seed
-toadflax seed
-toadflax seed
-toadflax seed
-toadflax seed
-irit seed
-irit seed
-irit seed
-irit seed
-avantoe seed
-avantoe seed
-avantoe seed
-avantoe seed
-kwuarm seed
-kwuarm seed
-kwuarm seed
-kwuarm seed
-snapdragon seed
-snapdragon seed
-snapdragon seed
-snapdragon seed
-cadantine seed
-cadantine seed
-cadantine seed
-cadantine seed
-lantadyme seed
-lantadyme seed
-lantadyme seed
-lantadyme seed
-dwarf weed seed
-dwarf weed seed
-dwarf weed seed
-dwarf weed seed
-torstol seed
-torstol seed
-torstol seed
-torstol seed
